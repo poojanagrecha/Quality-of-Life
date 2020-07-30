@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    // Read in CSV
+    // For Loop 
+    // Within For Loop, extract lat and lon, assign to variables and build URL
+    // call ReadSource, change function to accept url. 
     readSource();
 });
 
