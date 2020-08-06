@@ -34,7 +34,7 @@
     <div class="container-fluid" id="tko">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Teleport API</a>
+            <a class="navbar-brand" href="#">Quality of Life Dashboard</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,6 +65,60 @@
 
             </div>
         </nav>
+        <div id="header" class="card text-center">
+            <h1 style="text-align: center;">Housing Scores Across Major U.S. Cities</h1>
+            <br>
+        </div>
+        <div class="row content-wrap">
+            <div class='col-md-6 dropdown'>
+                <select id="selIndicator1">
+                <option class="dropdown-item" value = "Business_Freedom">Business Freedom</option>
+                <option class="dropdown-item">Commute</option>
+                <option class="dropdown-item"value = "Cost_of_Living">Cost of Living</option>
+                <option class="dropdown-item">Economy</option>
+                <option class="dropdown-item">Education</option>
+                <option class="dropdown-item" value = "Environmental_Quality">Environmental Quality</option>
+                <option class="dropdown-item">Healthcare</option>
+                <option class="dropdown-item">Housing</option>
+                <option class="dropdown-item" value = "Internet_Access">Internet Access</option>
+                <option class="dropdown-item">Leisure</option>
+                <option class="dropdown-item">Outdoors</option>
+                <option class="dropdown-item">Safety</option>
+                <option class="dropdown-item">Startups</option>
+                <option class="dropdown-item">Taxation</option>
+                <option class="dropdown-item">Tolerance</option>
+                <option class="dropdown-item" value = "Travel_Connectivity">Travel Connectivity</option>
+                <option class="dropdown-item" value = "Venture_Capital">Venture Capital</option>
+                </select>
+            </div>
+            <div class='col-md-6 dropdown'>
+                <select id="selIndicator2">
+                <option class="dropdown-item" value = "Business_Freedom">Business Freedom</option>
+                <option class="dropdown-item">Commute</option>
+                <option class="dropdown-item"value = "Cost_of_Living">Cost of Living</option>
+                <option class="dropdown-item">Economy</option>
+                <option class="dropdown-item">Education</option>
+                <option class="dropdown-item" value = "Environmental_Quality">Environmental Quality</option>
+                <option class="dropdown-item">Healthcare</option>
+                <option class="dropdown-item">Housing</option>
+                <option class="dropdown-item" value = "Internet_Access">Internet Access</option>
+                <option class="dropdown-item">Leisure</option>
+                <option class="dropdown-item">Outdoors</option>
+                <option class="dropdown-item">Safety</option>
+                <option class="dropdown-item">Startups</option>
+                <option class="dropdown-item">Taxation</option>
+                <option class="dropdown-item">Tolerance</option>
+                <option class="dropdown-item" value = "Travel_Connectivity">Travel Connectivity</option>
+                <option class="dropdown-item" value = "Venture_Capital">Venture Capital</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="my_dataviz1"></div>
+            <div class="col-md-6" id="my_dataviz2"></div>
+        </div>
+
+    </div>
 </body>
 
 </html>
