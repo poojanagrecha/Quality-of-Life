@@ -8,8 +8,8 @@
        "coordinates":  [ 10.203921,56.162939 ]
     },
     "properties": {
-    "FIELD1":0,
     "City":"Aarhus",
+    "City_Summary":"Aarhus, Denmark, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. ",
     "Address":"Aarhus, Denmark",
     "Housing":6.1315,
     "Cost_of_Living":4.015000000000001,
@@ -37,8 +37,8 @@
        "coordinates":  [ 138.6007456,-34.9284989 ]
     },
     "properties": {
-    "FIELD1":1,
     "City":"Adelaide",
+    "City_Summary":"Adelaide, Australia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. ",
     "Address":"Adelaide SA, Australia",
     "Housing":6.3095,
     "Cost_of_Living":4.692,
@@ -66,8 +66,8 @@
        "coordinates":  [ -106.650422,35.0843859 ]
     },
     "properties": {
-    "FIELD1":2,
     "City":"Albuquerque",
+    "City_Summary":"Albuquerque, New Mexico, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and tolerance. ",
     "Address":"Albuquerque, NM, USA",
     "Housing":7.2620000000000005,
     "Cost_of_Living":6.059,
@@ -95,8 +95,8 @@
        "coordinates":  [ 76.8512485,43.2220146 ]
     },
     "properties": {
-    "FIELD1":3,
     "City":"Almaty",
+    "City_Summary":"Almaty, Kazakhstan, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and taxation. ",
     "Address":"Almaty, Kazakhstan",
     "Housing":9.282,
     "Cost_of_Living":9.333,
@@ -124,8 +124,8 @@
        "coordinates":  [ 4.8945398,52.3666969 ]
     },
     "properties": {
-    "FIELD1":4,
     "City":"Amsterdam",
+    "City_Summary":"Amsterdam is one of the most bike-friendly cities on the planet: It has more bikes than people and 63% of its residents use them for their daily commute.  It is also one of the best cities in Europe for starting and operating a business.  With its clean environment, cultural diversity and well-developed infrastructure, Amsterdam is a great place to live. Amsterdam is one of the top ten city matches for 20. 1% of Teleport users. ",
     "Address":"Amsterdam, Netherlands",
     "Housing":3.0529999999999995,
     "Cost_of_Living":3.8240000000000007,
@@ -153,8 +153,8 @@
        "coordinates":  [ -149.9002778,61.2180556 ]
     },
     "properties": {
-    "FIELD1":5,
     "City":"Anchorage",
+    "City_Summary":"Anchorage, Alaska, is characterized by a clean environment. Our data reflects that this city has a good ranking in business freedom and tolerance. ",
     "Address":"Anchorage, AK, USA",
     "Housing":5.433500000000001,
     "Cost_of_Living":3.141,
@@ -182,8 +182,8 @@
        "coordinates":  [ 1.521801,42.506285 ]
     },
     "properties": {
-    "FIELD1":6,
     "City":"Andorra",
+    "City_Summary":"Andorra features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in environmental quality, internet access and tolerance. ",
     "Address":"Andorra",
     "Housing":3.9690000000000003,
     "Cost_of_Living":0,
@@ -211,8 +211,8 @@
        "coordinates":  [ 32.8597419,39.9333635 ]
     },
     "properties": {
-    "FIELD1":7,
     "City":"Ankara",
+    "City_Summary":"Ankara, Turkey, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. Ankara is one of the top ten city matches for 0. 9% of Teleport users. ",
     "Address":"Ankara, Turkey",
     "Housing":9.928,
     "Cost_of_Living":9.125,
@@ -240,8 +240,8 @@
        "coordinates":  [ -82.5514869,35.5950581 ]
     },
     "properties": {
-    "FIELD1":8,
     "City":"Asheville",
+    "City_Summary":"Asheville, North Carolina, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in healthcare, environmental quality and tolerance. ",
     "Address":"Asheville, NC, USA",
     "Housing":5.855999999999999,
     "Cost_of_Living":5.311,
@@ -269,8 +269,8 @@
        "coordinates":  [ -57.57592599999999,-25.2637399 ]
     },
     "properties": {
-    "FIELD1":9,
     "City":"Asuncion",
+    "City_Summary":"Asuncion, Paraguay, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and taxation. ",
     "Address":"Asunción, Paraguay",
     "Housing":9.226500000000001,
     "Cost_of_Living":9.295000000000002,
@@ -298,8 +298,8 @@
        "coordinates":  [ 23.7275388,37.9838096 ]
     },
     "properties": {
-    "FIELD1":10,
     "City":"Athens",
+    "City_Summary":"Athens, the birthplace of democracy, is a city with deep roots in history and culture.  Its grand architecture, Mediterranean climate and millions of annual visitors feed a thriving tourism industry, creating thousands of Athens jobs.  Shipping, finance and international trade are also important elements of Athens, which offers affordable housing and proximity to countless recreational and cultural activities . Athens is one of the top ten city matches for 0. 7% of Teleport users. ",
     "Address":"Athens, Greece",
     "Housing":9.052499999999998,
     "Cost_of_Living":6.5,
@@ -327,8 +327,8 @@
        "coordinates":  [ -84.3879824,33.7489954 ]
     },
     "properties": {
-    "FIELD1":11,
     "City":"Atlanta",
+    "City_Summary":"Atlanta, Georgia, is among the best cities with a vibrant startup scene. According to Teleport's city rankings, this is a good place to live with high ratings in venture capital, business freedom and leisure & culture. Atlanta is one of the top ten city matches for 6. 5% of Teleport users. ",
     "Address":"Atlanta, GA, USA",
     "Housing":4.9755,
     "Cost_of_Living":5.241,
@@ -356,8 +356,8 @@
        "coordinates":  [ 174.7624886,-36.84830480000001 ]
     },
     "properties": {
-    "FIELD1":12,
     "City":"Auckland",
+    "City_Summary":"Auckland, New Zealand, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Auckland is one of the top ten city matches for 1. 7% of Teleport users. ",
     "Address":"Auckland, New Zealand",
     "Housing":4.72,
     "Cost_of_Living":4.470000000000001,
@@ -385,8 +385,8 @@
        "coordinates":  [ -97.7430608,30.267153 ]
     },
     "properties": {
-    "FIELD1":13,
     "City":"Austin",
+    "City_Summary":"Austin, Texas, is among the best cities with a vibrant startup scene. According to Teleport's city rankings, this is a good place to live with high ratings in venture capital, business freedom and environmental quality. Austin is one of the top ten city matches for 9. 0% of Teleport users. ",
     "Address":"Austin, TX, USA",
     "Housing":4.3345,
     "Cost_of_Living":5.3549999999999995,
@@ -414,8 +414,8 @@
        "coordinates":  [ 49.8670924,40.40926169999999 ]
     },
     "properties": {
-    "FIELD1":14,
     "City":"Baku",
+    "City_Summary":"Baku, Azerbaijan, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and safety. Baku is one of the top ten city matches for 1. 6% of Teleport users. ",
     "Address":"Baku, Azerbaijan",
     "Housing":9.745000000000001,
     "Cost_of_Living":9.806000000000001,
@@ -443,8 +443,8 @@
        "coordinates":  [ 115.0919509,-8.3405389 ]
     },
     "properties": {
-    "FIELD1":15,
     "City":"Bali",
+    "City_Summary":"Bali, Indonesia, features a very safe living environment. This urban area is consistently ahead in outdoors. Bali is one of the top ten city matches for 0. 7% of Teleport users. ",
     "Address":"Bali, Indonesia",
     "Housing":5,
     "Cost_of_Living":0,
@@ -472,8 +472,8 @@
        "coordinates":  [ -76.6121893,39.2903848 ]
     },
     "properties": {
-    "FIELD1":16,
     "City":"Baltimore",
+    "City_Summary":"This urban area is consistently ahead in healthcare. ",
     "Address":"Baltimore, MD, USA",
     "Housing":4.829999999999999,
     "Cost_of_Living":4.982,
@@ -501,8 +501,8 @@
        "coordinates":  [ 100.5017651,13.7563309 ]
     },
     "properties": {
-    "FIELD1":17,
     "City":"Bangkok",
+    "City_Summary":"Bangkok, Thailand, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and safety. Bangkok is one of the top ten city matches for 2. 7% of Teleport users. ",
     "Address":"Bangkok, Thailand",
     "Housing":7.3935,
     "Cost_of_Living":7.222,
@@ -527,12 +527,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -95.9241306,36.0881056 ]
+       "coordinates":  [ 2.154007,41.390205 ]
     },
     "properties": {
-    "FIELD1":18,
     "City":"Barcelona",
-    "Address":"5160 S Yale Ave, Tulsa, OK 74135, USA",
+    "City_Summary":"Barcelona offers an engaging mix of relaxed lifestyle and innovative business environment, making it one of the most attractive startup scenes in Europe.  The city also boasts a great cultural heritage and a modern, active social scene that highlights sports, city beaches and excellent local food.  Adding the affordable high quality health services and good travel connections, and Barcelona will appeal to many. Barcelona is one of the top ten city matches for 2. 3% of Teleport users. ",
+    "Address":"Barcelona, Spain",
     "Housing":6.3229999999999995,
     "Cost_of_Living":6.074000000000001,
     "Startups":7.7585000000000015,
@@ -559,8 +559,8 @@
        "coordinates":  [ 116.4073963,39.90419989999999 ]
     },
     "properties": {
-    "FIELD1":19,
     "City":"Beijing",
+    "City_Summary":"Beijing, China, is among the leading cities with a higher number of accelerators or available funding. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, travel connectivity and safety. Beijing is one of the top ten city matches for 2. 5% of Teleport users. ",
     "Address":"Beijing, China",
     "Housing":6.173000000000001,
     "Cost_of_Living":8.101,
@@ -588,8 +588,8 @@
        "coordinates":  [ 35.5017767,33.8937913 ]
     },
     "properties": {
-    "FIELD1":20,
     "City":"Beirut",
+    "City_Summary":"Beirut, Lebanon, is characterized by low taxes. Our data reflects that this city has a good ranking in housing and safety. ",
     "Address":"Beirut, Lebanon",
     "Housing":6.655500000000001,
     "Cost_of_Living":6.3,
@@ -617,8 +617,8 @@
        "coordinates":  [ -5.93012,54.59728500000001 ]
     },
     "properties": {
-    "FIELD1":21,
     "City":"Belfast",
+    "City_Summary":"Belfast, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Belfast, UK",
     "Housing":7.532000000000001,
     "Cost_of_Living":6.014000000000001,
@@ -646,8 +646,8 @@
        "coordinates":  [ 20.4489216,44.786568 ]
     },
     "properties": {
-    "FIELD1":22,
     "City":"Belgrade",
+    "City_Summary":"Belgrade, Serbia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and tolerance. Belgrade is one of the top ten city matches for 2. 0% of Teleport users. ",
     "Address":"Belgrade, Serbia",
     "Housing":9.2575,
     "Cost_of_Living":8.546000000000001,
@@ -675,8 +675,8 @@
        "coordinates":  [ -88.1962133,17.5045661 ]
     },
     "properties": {
-    "FIELD1":23,
     "City":"Belize City",
+    "City_Summary":"Belize City, Belize, is characterized by low taxes. This urban area is consistently ahead in tolerance. ",
     "Address":"Belize City, Belize",
     "Housing":4.6425,
     "Cost_of_Living":0,
@@ -704,8 +704,8 @@
        "coordinates":  [ 77.5945627,12.9715987 ]
     },
     "properties": {
-    "FIELD1":24,
     "City":"Bengaluru",
+    "City_Summary":"Bengaluru, India, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, startups and venture capital. Bengaluru is one of the top ten city matches for 2. 0% of Teleport users. ",
     "Address":"Bengaluru, Karnataka, India",
     "Housing":9.810999999999998,
     "Cost_of_Living":10,
@@ -733,8 +733,8 @@
        "coordinates":  [ 5.3220544,60.39126279999999 ]
     },
     "properties": {
-    "FIELD1":25,
     "City":"Bergen",
+    "City_Summary":"Bergen, Norway, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. ",
     "Address":"Bergen, Norway",
     "Housing":5.229499999999999,
     "Cost_of_Living":1.8050000000000002,
@@ -762,8 +762,8 @@
        "coordinates":  [ 13.404954,52.52000659999999 ]
     },
     "properties": {
-    "FIELD1":26,
     "City":"Berlin",
+    "City_Summary":"Berlin is a sprawling, diverse metropolis, home to people from around the world.  Although it is roughly nine times the size of Paris, Berlin's key districts are well-connected by public transport or cycling roads, and many even close enough for walking.  The flexible work environment combined with easy access to venture capital attracts young people and entrepreneurs, making Berlin one of the most vibrant startup scenes in Europe. Berlin is one of the top ten city matches for 30. 8% of Teleport users. ",
     "Address":"Berlin, Germany",
     "Housing":6.3950000000000005,
     "Cost_of_Living":5.524,
@@ -791,8 +791,8 @@
        "coordinates":  [ 7.4474468,46.9479739 ]
     },
     "properties": {
-    "FIELD1":27,
     "City":"Bern",
+    "City_Summary":"Bern, Switzerland, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, healthcare and environmental quality. Bern is one of the top ten city matches for 2. 3% of Teleport users. ",
     "Address":"Bern, Switzerland",
     "Housing":4.922500000000001,
     "Cost_of_Living":1,
@@ -820,8 +820,8 @@
        "coordinates":  [ -2.9349852,43.2630126 ]
     },
     "properties": {
-    "FIELD1":28,
     "City":"Bilbao",
+    "City_Summary":"Bilbao, Spain, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and healthcare. ",
     "Address":"Bilbao, Biscay, Spain",
     "Housing":6.888000000000001,
     "Cost_of_Living":5.638,
@@ -846,12 +846,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -86.8103567,33.5185892 ]
+       "coordinates":  [ -1.908484,52.479740 ]
     },
     "properties": {
-    "FIELD1":29,
     "City":"Birmingham",
-    "Address":"Birmingham, AL, USA",
+    "City_Summary":"Birmingham, United Kingdom, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in safety and healthcare. Birmingham is one of the top ten city matches for 0. 6% of Teleport users. ",
+    "Address":"Birmingham, UK",
     "Housing":5.9035,
     "Cost_of_Living":5.814,
     "Startups":4.3575,
@@ -878,8 +878,8 @@
        "coordinates":  [ -86.8103567,33.5185892 ]
     },
     "properties": {
-    "FIELD1":30,
     "City":"Birmingham, AL",
+    "City_Summary":"Birmingham, Alabama, is among the top cities with a free business environment. This urban area is consistently ahead in environmental quality. ",
     "Address":"Birmingham, AL, USA",
     "Housing":6.5555,
     "Cost_of_Living":5.133,
@@ -907,8 +907,8 @@
        "coordinates":  [ -74.072092,4.710988599999999 ]
     },
     "properties": {
-    "FIELD1":31,
     "City":"Bogota",
+    "City_Summary":"Bogota, Colombia, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, tolerance and outdoors. Bogota is one of the top ten city matches for 1. 4% of Teleport users. ",
     "Address":"Bogota, Colombia",
     "Housing":9.0275,
     "Cost_of_Living":9.079999999999998,
@@ -936,8 +936,8 @@
        "coordinates":  [ -116.2023137,43.6150186 ]
     },
     "properties": {
-    "FIELD1":32,
     "City":"Boise",
+    "City_Summary":"Boise, Idaho, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, healthcare and environmental quality. ",
     "Address":"Boise, ID, USA",
     "Housing":6.9635,
     "Cost_of_Living":6.578,
@@ -965,8 +965,8 @@
        "coordinates":  [ 11.3426162,44.494887 ]
     },
     "properties": {
-    "FIELD1":33,
     "City":"Bologna",
+    "City_Summary":"Bologna, Italy, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Bologna, Metropolitan City of Bologna, Italy",
     "Housing":7.4719999999999995,
     "Cost_of_Living":5.189,
@@ -994,8 +994,8 @@
        "coordinates":  [ -0.57918,44.837789 ]
     },
     "properties": {
-    "FIELD1":34,
     "City":"Bordeaux",
+    "City_Summary":"Bordeaux, France, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. Bordeaux is one of the top ten city matches for 0. 2% of Teleport users. ",
     "Address":"Bordeaux, France",
     "Housing":7.1915,
     "Cost_of_Living":4.583,
@@ -1023,8 +1023,8 @@
        "coordinates":  [ -71.0588801,42.3600825 ]
     },
     "properties": {
-    "FIELD1":35,
     "City":"Boston",
+    "City_Summary":"One of the oldest and most historic cities in the US, Boston is a center of higher education with some of the top universities in the world.  It has also developed a vibrant technology scene and is home to numerous venture capital firms, all supporting high rates of innovation and entrepreneurship.  Add its tolerant environment, great quality of healthcare and beautiful New England nature, and you've got an enticing city that attracts talent from around the world. Boston is one of the top ten city matches for 12. 8% of Teleport users. ",
     "Address":"Boston, MA, USA",
     "Housing":1,
     "Cost_of_Living":4.259,
@@ -1052,8 +1052,8 @@
        "coordinates":  [ -105.2705456,40.0149856 ]
     },
     "properties": {
-    "FIELD1":36,
     "City":"Boulder",
+    "City_Summary":"Boulder, Colorado, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. Boulder is one of the top ten city matches for 13. 4% of Teleport users. ",
     "Address":"Boulder, CO, USA",
     "Housing":3.704,
     "Cost_of_Living":4.531,
@@ -1081,8 +1081,8 @@
        "coordinates":  [ -111.0429339,45.6769979 ]
     },
     "properties": {
-    "FIELD1":37,
     "City":"Bozeman",
+    "City_Summary":"Bozeman, Montana, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and tolerance. ",
     "Address":"Bozeman, MT, USA",
     "Housing":2.949,
     "Cost_of_Living":0,
@@ -1110,8 +1110,8 @@
        "coordinates":  [ 17.1077478,48.1485965 ]
     },
     "properties": {
-    "FIELD1":38,
     "City":"Bratislava",
+    "City_Summary":"Bratislava, Slovakia, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and healthcare. Bratislava is one of the top ten city matches for 1. 7% of Teleport users. ",
     "Address":"Bratislava, Slovakia",
     "Housing":7.874499999999999,
     "Cost_of_Living":7.618,
@@ -1136,12 +1136,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -111.583187,40.598019 ]
+       "coordinates":  [ -0.152778,50.827778 ]
     },
     "properties": {
-    "FIELD1":39,
     "City":"Brighton",
-    "Address":"8302 S Brighton Loop Rd, Brighton, UT 84121, USA",
+    "City_Summary":"Brighton, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. ",
+    "Address":"Brighton, UK",
     "Housing":2.49,
     "Cost_of_Living":5.324,
     "Startups":3.4094999999999995,
@@ -1168,8 +1168,8 @@
        "coordinates":  [ 153.0251235,-27.4697707 ]
     },
     "properties": {
-    "FIELD1":40,
     "City":"Brisbane",
+    "City_Summary":"Brisbane, Australia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Brisbane is one of the top ten city matches for 0. 7% of Teleport users. ",
     "Address":"Brisbane QLD, Australia",
     "Housing":5.212,
     "Cost_of_Living":5.1770000000000005,
@@ -1194,12 +1194,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -72.9492703,41.67176480000001 ]
+       "coordinates":  [ -2.587910,51.454514  ]
     },
     "properties": {
-    "FIELD1":41,
     "City":"Bristol",
-    "Address":"Bristol, CT 06010, USA",
+    "City_Summary":"Bristol, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and tolerance. ",
+    "Address":"Bristol, UK",
     "Housing":5.215999999999999,
     "Cost_of_Living":5.242,
     "Startups":4.113,
@@ -1226,8 +1226,8 @@
        "coordinates":  [ 16.6068371,49.1950602 ]
     },
     "properties": {
-    "FIELD1":42,
     "City":"Brno",
+    "City_Summary":"Brno, Czechia, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and healthcare. ",
     "Address":"Brno, Czechia",
     "Housing":8.329000000000002,
     "Cost_of_Living":7.925999999999998,
@@ -1252,11 +1252,11 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 4.3517103,50.8503396 ]
+       "coordinates":  [ 4.3517211,50.8503463 ]
     },
     "properties": {
-    "FIELD1":43,
     "City":"Brussels",
+    "City_Summary":"Life in Brussels is a culturally rich, central-European adventure offering a high quality of life.  Home to much of the European Union infrastructure, it attracts a diverse population, while maintaining its distinct identity.  You can go hiking in the woods, attend various cultural events and talk to people of multiple nationalities in a single day.  The key districts of Brussels are well connected by a quality transportation network, but its compact size also allows for navigation by foot and all the opportunities that creates. Brussels is one of the top ten city matches for 0. 4% of Teleport users. ",
     "Address":"Brussels, Belgium",
     "Housing":6.3549999999999995,
     "Cost_of_Living":4.477,
@@ -1284,8 +1284,8 @@
        "coordinates":  [ 26.1025384,44.4267674 ]
     },
     "properties": {
-    "FIELD1":44,
     "City":"Bucharest",
+    "City_Summary":"Bucharest, Romania, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and safety. Bucharest is one of the top ten city matches for 6. 1% of Teleport users. ",
     "Address":"Bucharest, Romania",
     "Housing":9.186500000000002,
     "Cost_of_Living":8.516,
@@ -1313,8 +1313,8 @@
        "coordinates":  [ 19.040235,47.497912 ]
     },
     "properties": {
-    "FIELD1":45,
     "City":"Budapest",
+    "City_Summary":"Budapest, Hungary, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, business freedom and safety. Budapest is one of the top ten city matches for 2. 4% of Teleport users. ",
     "Address":"Budapest, Hungary",
     "Housing":8.570500000000001,
     "Cost_of_Living":7.9479999999999995,
@@ -1342,8 +1342,8 @@
        "coordinates":  [ -58.3815591,-34.6036844 ]
     },
     "properties": {
-    "FIELD1":46,
     "City":"Buenos Aires",
+    "City_Summary":"Buenos Aires, Argentina, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, healthcare and leisure & culture. Buenos Aires is one of the top ten city matches for 1. 9% of Teleport users. ",
     "Address":"Buenos Aires, Argentina",
     "Housing":8.812000000000001,
     "Cost_of_Living":7.763999999999999,
@@ -1371,8 +1371,8 @@
        "coordinates":  [ -78.8783689,42.88644679999999 ]
     },
     "properties": {
-    "FIELD1":47,
     "City":"Buffalo",
+    "City_Summary":"Buffalo, New York, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and environmental quality. ",
     "Address":"Buffalo, NY, USA",
     "Housing":7.0765,
     "Cost_of_Living":5.228000000000001,
@@ -1400,8 +1400,8 @@
        "coordinates":  [ 31.2357116,30.0444196 ]
     },
     "properties": {
-    "FIELD1":48,
     "City":"Cairo",
+    "City_Summary":"Cairo, Egypt, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and safety. ",
     "Address":"Cairo, Cairo Governorate, Egypt",
     "Housing":10,
     "Cost_of_Living":10,
@@ -1429,8 +1429,8 @@
        "coordinates":  [ -114.0718831,51.04473309999999 ]
     },
     "properties": {
-    "FIELD1":49,
     "City":"Calgary",
+    "City_Summary":"Calgary, Canada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Calgary is one of the top ten city matches for 4. 2% of Teleport users. ",
     "Address":"Calgary, AB, Canada",
     "Housing":6.495000000000001,
     "Cost_of_Living":5.417999999999999,
@@ -1455,12 +1455,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -71.10973349999999,42.3736158 ]
+       "coordinates":  [ 0.119167,52.205276 ]
     },
     "properties": {
-    "FIELD1":50,
     "City":"Cambridge",
-    "Address":"Cambridge, MA, USA",
+    "City_Summary":"Cambridge, United Kingdom, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, business freedom and healthcare. ",
+    "Address":"Cambridge, UK",
     "Housing":4.1055,
     "Cost_of_Living":4.851,
     "Startups":5.253,
@@ -1487,8 +1487,8 @@
        "coordinates":  [ 18.4240553,-33.9248685 ]
     },
     "properties": {
-    "FIELD1":51,
     "City":"Cape Town",
+    "City_Summary":"Cape Town, South Africa, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and outdoors. Cape Town is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Cape Town, South Africa",
     "Housing":6.7635000000000005,
     "Cost_of_Living":7.955,
@@ -1516,8 +1516,8 @@
        "coordinates":  [ -66.90360629999999,10.4805937 ]
     },
     "properties": {
-    "FIELD1":52,
     "City":"Caracas",
+    "City_Summary":"Caracas, Venezuela, differentiates itself with low living costs. When considering your preferences, this city does not have any category with a high rating. ",
     "Address":"Caracas, Capital District, Venezuela",
     "Housing":4.9025,
     "Cost_of_Living":9.82,
@@ -1545,8 +1545,8 @@
        "coordinates":  [ -3.17909,51.48158100000001 ]
     },
     "properties": {
-    "FIELD1":53,
     "City":"Cardiff",
+    "City_Summary":"Cardiff, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Cardiff, UK",
     "Housing":7.065,
     "Cost_of_Living":6.082,
@@ -1574,8 +1574,8 @@
        "coordinates":  [ -7.589843399999999,33.5731104 ]
     },
     "properties": {
-    "FIELD1":54,
     "City":"Casablanca",
+    "City_Summary":"Casablanca, Morocco, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and safety. ",
     "Address":"Casablanca, Morocco",
     "Housing":8.822,
     "Cost_of_Living":9.088000000000001,
@@ -1603,8 +1603,8 @@
        "coordinates":  [ -79.93105120000001,32.7764749 ]
     },
     "properties": {
-    "FIELD1":55,
     "City":"Charleston",
+    "City_Summary":"Charleston, South Carolina, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in healthcare and environmental quality. ",
     "Address":"Charleston, SC, USA",
     "Housing":4.6370000000000005,
     "Cost_of_Living":3.567,
@@ -1632,8 +1632,8 @@
        "coordinates":  [ -80.8431267,35.2270869 ]
     },
     "properties": {
-    "FIELD1":56,
     "City":"Charlotte",
+    "City_Summary":"Charlotte, North Carolina, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in environmental quality and tolerance. Charlotte is one of the top ten city matches for 2. 6% of Teleport users. ",
     "Address":"Charlotte, NC, USA",
     "Housing":5.549,
     "Cost_of_Living":4.987,
@@ -1661,8 +1661,8 @@
        "coordinates":  [ -85.3096801,35.0456297 ]
     },
     "properties": {
-    "FIELD1":57,
     "City":"Chattanooga",
+    "City_Summary":"Chattanooga, Tennessee, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and internet access. ",
     "Address":"Chattanooga, TN, USA",
     "Housing":6.782,
     "Cost_of_Living":6.121,
@@ -1690,8 +1690,8 @@
        "coordinates":  [ 80.2707184,13.0826802 ]
     },
     "properties": {
-    "FIELD1":58,
     "City":"Chennai",
+    "City_Summary":"Chennai, India, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, startups and safety. ",
     "Address":"Chennai, Tamil Nadu, India",
     "Housing":10,
     "Cost_of_Living":10,
@@ -1719,8 +1719,8 @@
        "coordinates":  [ 98.98530079999999,18.7883439 ]
     },
     "properties": {
-    "FIELD1":59,
     "City":"Chiang Mai",
+    "City_Summary":"Chiang Mai, Thailand, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. Chiang Mai is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Chiang Mai, Mueang Chiang Mai District, Chiang Mai, Thailand",
     "Housing":9.3725,
     "Cost_of_Living":8.495000000000001,
@@ -1748,8 +1748,8 @@
        "coordinates":  [ -87.6297982,41.8781136 ]
     },
     "properties": {
-    "FIELD1":60,
     "City":"Chicago",
+    "City_Summary":"Chicago, Illinois, is among the best cities with a vibrant startup scene. According to Teleport's city rankings, this is a good place to live with high ratings in venture capital, business freedom and education. Chicago is one of the top ten city matches for 5. 5% of Teleport users. ",
     "Address":"Chicago, IL, USA",
     "Housing":3.7020000000000004,
     "Cost_of_Living":4.766000000000001,
@@ -1777,8 +1777,8 @@
        "coordinates":  [ 28.8638102,47.0104529 ]
     },
     "properties": {
-    "FIELD1":61,
     "City":"Chisinau",
+    "City_Summary":"Chisinau, Moldova, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and tolerance. Chisinau is one of the top ten city matches for 2. 1% of Teleport users. ",
     "Address":"Chișinău, Moldova",
     "Housing":9.676499999999999,
     "Cost_of_Living":9.343,
@@ -1806,8 +1806,8 @@
        "coordinates":  [ 172.6396575,-43.5319957 ]
     },
     "properties": {
-    "FIELD1":62,
     "City":"Christchurch",
+    "City_Summary":"Christchurch, New Zealand, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Christchurch, New Zealand",
     "Housing":6.934000000000001,
     "Cost_of_Living":5.096,
@@ -1835,8 +1835,8 @@
        "coordinates":  [ -84.5120196,39.1031182 ]
     },
     "properties": {
-    "FIELD1":63,
     "City":"Cincinnati",
+    "City_Summary":"Cincinnati, Ohio, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and environmental quality. Cincinnati is one of the top ten city matches for 0. 2% of Teleport users. ",
     "Address":"Cincinnati, OH, USA",
     "Housing":6.6775,
     "Cost_of_Living":6.1080000000000005,
@@ -1864,8 +1864,8 @@
        "coordinates":  [ -81.6943605,41.49932 ]
     },
     "properties": {
-    "FIELD1":64,
     "City":"Cleveland",
+    "City_Summary":"Cleveland, Ohio, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, healthcare and environmental quality. ",
     "Address":"Cleveland, OH, USA",
     "Housing":7.155999999999999,
     "Cost_of_Living":5.595,
@@ -1893,8 +1893,8 @@
        "coordinates":  [ 23.6236353,46.7712101 ]
     },
     "properties": {
-    "FIELD1":65,
     "City":"Cluj-Napoca",
+    "City_Summary":"Cluj-Napoca, Romania, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and taxation. ",
     "Address":"Cluj-Napoca, Romania",
     "Housing":9.165,
     "Cost_of_Living":8.794,
@@ -1922,8 +1922,8 @@
        "coordinates":  [ 6.9602786,50.937531 ]
     },
     "properties": {
-    "FIELD1":66,
     "City":"Cologne",
+    "City_Summary":"Cologne, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. ",
     "Address":"Cologne, Germany",
     "Housing":6.5265,
     "Cost_of_Living":5.606999999999999,
@@ -1951,8 +1951,8 @@
        "coordinates":  [ -104.8213634,38.8338816 ]
     },
     "properties": {
-    "FIELD1":67,
     "City":"Colorado Springs",
+    "City_Summary":"Colorado Springs, Colorado, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in environmental quality, tolerance and outdoors. ",
     "Address":"Colorado Springs, CO, USA",
     "Housing":6.4995,
     "Cost_of_Living":5.375,
@@ -1980,8 +1980,8 @@
        "coordinates":  [ -82.99879419999999,39.9611755 ]
     },
     "properties": {
-    "FIELD1":68,
     "City":"Columbus",
+    "City_Summary":"Columbus, Ohio, is among the top cities with a free business environment. This urban area is consistently ahead in environmental quality. Columbus is one of the top ten city matches for 0. 9% of Teleport users. ",
     "Address":"Columbus, OH, USA",
     "Housing":6.2895,
     "Cost_of_Living":5.746000000000001,
@@ -2009,8 +2009,8 @@
        "coordinates":  [ 12.5683372,55.6760968 ]
     },
     "properties": {
-    "FIELD1":69,
     "City":"Copenhagen",
+    "City_Summary":"Copenhagen is a city with a small-town vibe.  The city is best explored by bike using one of the world's most developed bike-path system and its countless cafés, bars, and parks are never far away.  The high standard of living, easy access to Internet, modern metro system and a thriving business environment attract talent from all over the world. Copenhagen is one of the top ten city matches for 15. 3% of Teleport users. ",
     "Address":"Copenhagen, Denmark",
     "Housing":4.227,
     "Cost_of_Living":3.426,
@@ -2035,12 +2035,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -77.031686,38.9143567 ]
+       "coordinates":  [ -8.469707,51.897260 ]
     },
     "properties": {
-    "FIELD1":70,
     "City":"Cork",
-    "Address":"1805 14th St NW, Washington, DC 20009, USA",
+    "City_Summary":"Cork, Ireland, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. ",
+    "Address":"Cork, Ireland",
     "Housing":5.514500000000001,
     "Cost_of_Living":4.902,
     "Startups":3.9875,
@@ -2067,8 +2067,8 @@
        "coordinates":  [ -49.3044253,-25.4808762 ]
     },
     "properties": {
-    "FIELD1":71,
     "City":"Curitiba",
+    "City_Summary":"Curitiba, Brazil, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, environmental quality and leisure & culture. ",
     "Address":"Curitiba - State of Paraná, Brazil",
     "Housing":9.429499999999999,
     "Cost_of_Living":8.433,
@@ -2096,8 +2096,8 @@
        "coordinates":  [ -96.79698789999999,32.7766642 ]
     },
     "properties": {
-    "FIELD1":72,
     "City":"Dallas",
+    "City_Summary":"Dallas, Texas, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, environmental quality and leisure & culture. Dallas is one of the top ten city matches for 6. 0% of Teleport users. ",
     "Address":"Dallas, TX, USA",
     "Housing":5.259000000000001,
     "Cost_of_Living":6.090999999999999,
@@ -2125,8 +2125,8 @@
        "coordinates":  [ 39.2083284,-6.792354 ]
     },
     "properties": {
-    "FIELD1":73,
     "City":"Dar es Salaam",
+    "City_Summary":"Dar es Salaam, Tanzania, differentiates itself with low living costs. This urban area is consistently ahead in housing. ",
     "Address":"Dar es Salaam, Tanzania",
     "Housing":7.652000000000001,
     "Cost_of_Living":8.026,
@@ -2154,8 +2154,8 @@
        "coordinates":  [ 77.10249019999999,28.7040592 ]
     },
     "properties": {
-    "FIELD1":74,
     "City":"Delhi",
+    "City_Summary":"Delhi, India, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, startups and venture capital. Delhi is one of the top ten city matches for 2. 5% of Teleport users. ",
     "Address":"Delhi, India",
     "Housing":9.751999999999999,
     "Cost_of_Living":9.869,
@@ -2183,8 +2183,8 @@
        "coordinates":  [ -104.990251,39.7392358 ]
     },
     "properties": {
-    "FIELD1":75,
     "City":"Denver",
+    "City_Summary":"Denver, Colorado, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, environmental quality and tolerance. Denver is one of the top ten city matches for 4. 1% of Teleport users. ",
     "Address":"Denver, CO, USA",
     "Housing":3.8375,
     "Cost_of_Living":5.102,
@@ -2212,8 +2212,8 @@
        "coordinates":  [ -93.6249593,41.5868353 ]
     },
     "properties": {
-    "FIELD1":76,
     "City":"Des Moines",
+    "City_Summary":"Des Moines, Iowa, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. ",
     "Address":"Des Moines, IA, USA",
     "Housing":6.850999999999999,
     "Cost_of_Living":6.327,
@@ -2241,8 +2241,8 @@
        "coordinates":  [ -83.0457538,42.331427 ]
     },
     "properties": {
-    "FIELD1":77,
     "City":"Detroit",
+    "City_Summary":"Detroit, Michigan, is among the top cities with a free business environment. This urban area is consistently ahead in leisure & culture. Detroit is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Detroit, MI, USA",
     "Housing":6.223000000000001,
     "Cost_of_Living":6.032,
@@ -2270,8 +2270,8 @@
        "coordinates":  [ 51.53103979999999,25.2854473 ]
     },
     "properties": {
-    "FIELD1":78,
     "City":"Doha",
+    "City_Summary":"Doha, Qatar, is characterized by low taxes. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. ",
     "Address":"Doha, Qatar",
     "Housing":2.1315,
     "Cost_of_Living":6.183,
@@ -2299,8 +2299,8 @@
        "coordinates":  [ 13.7372621,51.0504088 ]
     },
     "properties": {
-    "FIELD1":79,
     "City":"Dresden",
+    "City_Summary":"Dresden, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Dresden, Germany",
     "Housing":7.884500000000001,
     "Cost_of_Living":6.0280000000000005,
@@ -2328,8 +2328,8 @@
        "coordinates":  [ 55.2707828,25.2048493 ]
     },
     "properties": {
-    "FIELD1":80,
     "City":"Dubai",
+    "City_Summary":"Dubai, United Arab Emirates, is characterized by low taxes. According to Teleport's city rankings, this is a good place to live with high ratings in startups, business freedom and safety. Dubai is one of the top ten city matches for 6. 9% of Teleport users. ",
     "Address":"Dubai - United Arab Emirates",
     "Housing":2.591,
     "Cost_of_Living":5.49,
@@ -2357,8 +2357,8 @@
        "coordinates":  [ -6.2603097,53.3498053 ]
     },
     "properties": {
-    "FIELD1":81,
     "City":"Dublin",
+    "City_Summary":"Dublin is a city marked by its long history and rich background.  The city center is compact, rich in urban greenery, and can be easily traversed on foot.  Due to its great travel connections, tax incentives and relatively close time zone to the US, most of the largest American technology companies have their headquarters in Dublin.  There are also over 1,200 startups in the city attracted by the access to venture capital and high speed Internet. Dublin is one of the top ten city matches for 4. 9% of Teleport users. ",
     "Address":"Dublin, Ireland",
     "Housing":2.5124999999999997,
     "Cost_of_Living":4.005000000000001,
@@ -2386,8 +2386,8 @@
        "coordinates":  [ 6.7734556,51.2277411 ]
     },
     "properties": {
-    "FIELD1":82,
     "City":"Dusseldorf",
+    "City_Summary":"Dusseldorf, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. ",
     "Address":"Düsseldorf, Germany",
     "Housing":6.282000000000001,
     "Cost_of_Living":5.1339999999999995,
@@ -2415,8 +2415,8 @@
        "coordinates":  [ -3.188267,55.953252 ]
     },
     "properties": {
-    "FIELD1":83,
     "City":"Edinburgh",
+    "City_Summary":"Edinburgh is truly steeped in history—even its New Town was built in the 18th century.  It also boasts breathtaking views of a hilly scenery and proximity to nature.  With a population of 465 thousand people, walkable distances and amazing public transport, you are more likely to stumble upon your friends than in any other capital.  Despite its small size, Edinburgh is still the second largest financial center in the UK after London. Edinburgh is one of the top ten city matches for 4. 8% of Teleport users. ",
     "Address":"Edinburgh, UK",
     "Housing":5.8450000000000015,
     "Cost_of_Living":5.114,
@@ -2444,8 +2444,8 @@
        "coordinates":  [ -113.4938229,53.5461245 ]
     },
     "properties": {
-    "FIELD1":84,
     "City":"Edmonton",
+    "City_Summary":"Edmonton, Canada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Edmonton, AB, Canada",
     "Housing":6.729500000000001,
     "Cost_of_Living":5.522,
@@ -2473,8 +2473,8 @@
        "coordinates":  [ 5.4697225,51.44164199999999 ]
     },
     "properties": {
-    "FIELD1":85,
     "City":"Eindhoven",
+    "City_Summary":"Eindhoven, Netherlands, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, healthcare and environmental quality. Eindhoven is one of the top ten city matches for 2. 7% of Teleport users. ",
     "Address":"Eindhoven, Netherlands",
     "Housing":6.252000000000001,
     "Cost_of_Living":5.125,
@@ -2502,8 +2502,8 @@
        "coordinates":  [ -123.0867536,44.0520691 ]
     },
     "properties": {
-    "FIELD1":86,
     "City":"Eugene",
+    "City_Summary":"Eugene, Oregon, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and tolerance. ",
     "Address":"Eugene, OR, USA",
     "Housing":6.713,
     "Cost_of_Living":5.021,
@@ -2531,8 +2531,8 @@
        "coordinates":  [ 11.2558136,43.7695604 ]
     },
     "properties": {
-    "FIELD1":87,
     "City":"Florence",
+    "City_Summary":"Florence, Italy, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Florence, Metropolitan City of Florence, Italy",
     "Housing":6.775,
     "Cost_of_Living":4.649,
@@ -2560,8 +2560,8 @@
        "coordinates":  [ -48.54821949999999,-27.5948698 ]
     },
     "properties": {
-    "FIELD1":88,
     "City":"Florianopolis",
+    "City_Summary":"Florianopolis, Brazil, is characterized by reasonably priced housing. Our data reflects that this city has a good ranking in cost of living and tolerance. ",
     "Address":"Florianópolis - State of Santa Catarina, Brazil",
     "Housing":9.0595,
     "Cost_of_Living":8.331000000000001,
@@ -2589,8 +2589,8 @@
        "coordinates":  [ -105.084423,40.5852602 ]
     },
     "properties": {
-    "FIELD1":89,
     "City":"Fort Collins",
+    "City_Summary":"Fort Collins, Colorado, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. ",
     "Address":"Fort Collins, CO, USA",
     "Housing":2.744500000000001,
     "Cost_of_Living":0,
@@ -2618,8 +2618,8 @@
        "coordinates":  [ 8.6821267,50.1109221 ]
     },
     "properties": {
-    "FIELD1":90,
     "City":"Frankfurt",
+    "City_Summary":"Frankfurt, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. Frankfurt is one of the top ten city matches for 4. 4% of Teleport users. ",
     "Address":"Frankfurt, Germany",
     "Housing":5.957,
     "Cost_of_Living":5.143,
@@ -2647,8 +2647,8 @@
        "coordinates":  [ 130.4016888,33.5901838 ]
     },
     "properties": {
-    "FIELD1":91,
     "City":"Fukuoka",
+    "City_Summary":"Fukuoka, Japan, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, healthcare and environmental quality. ",
     "Address":"Fukuoka, Japan",
     "Housing":4.01,
     "Cost_of_Living":0,
@@ -2676,8 +2676,8 @@
        "coordinates":  [ 18.6466384,54.35202520000001 ]
     },
     "properties": {
-    "FIELD1":92,
     "City":"Gdansk",
+    "City_Summary":"Gdansk, Poland, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. ",
     "Address":"Gdańsk, Poland",
     "Housing":8.508,
     "Cost_of_Living":8.126999999999999,
@@ -2705,8 +2705,8 @@
        "coordinates":  [ 6.1431577,46.2043907 ]
     },
     "properties": {
-    "FIELD1":93,
     "City":"Geneva",
+    "City_Summary":"Geneva, Switzerland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Geneva is one of the top ten city matches for 2. 8% of Teleport users. ",
     "Address":"Geneva, Switzerland",
     "Housing":1.0775000000000001,
     "Cost_of_Living":1,
@@ -2734,8 +2734,8 @@
        "coordinates":  [ -5.353585,36.140751 ]
     },
     "properties": {
-    "FIELD1":94,
     "City":"Gibraltar",
+    "City_Summary":"Gibraltar, Gibraltar, features a very safe living environment. When considering your preferences, this city does not have any category with a high rating. ",
     "Address":"Gibraltar",
     "Housing":1.1119999999999999,
     "Cost_of_Living":0,
@@ -2763,8 +2763,8 @@
        "coordinates":  [ -4.251806,55.864237 ]
     },
     "properties": {
-    "FIELD1":95,
     "City":"Glasgow",
+    "City_Summary":"Glasgow is an outgoing, friendly and international city with a historic flavor.  It offers a high quality of life and a wide range of cultural activities including concerts, fairs, sports events and festivals, making it a highly sociable environment.  The unpredictable weather might be a challenge for some, but as the business and cultural center of Scotland, it's an exciting choice. Glasgow is one of the top ten city matches for 0. 6% of Teleport users. ",
     "Address":"Glasgow, UK",
     "Housing":6.9285000000000005,
     "Cost_of_Living":5.623,
@@ -2792,8 +2792,8 @@
        "coordinates":  [ 11.97456,57.70887 ]
     },
     "properties": {
-    "FIELD1":96,
     "City":"Gothenburg",
+    "City_Summary":"Gothenburg, Sweden, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Gothenburg, Sweden",
     "Housing":6.725,
     "Cost_of_Living":5.046000000000001,
@@ -2818,12 +2818,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.0379471,40.23955249999999 ]
+       "coordinates":  [ 5.724524,45.188529 ]
     },
     "properties": {
-    "FIELD1":97,
     "City":"Grenoble",
-    "Address":"Grenoble, Northampton Township, PA 18974, USA",
+    "City_Summary":"Grenoble, France, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and healthcare. ",
+    "Address":"Grenoble, France",
     "Housing":7.505000000000001,
     "Cost_of_Living":4.317,
     "Startups":2.7430000000000003,
@@ -2850,8 +2850,8 @@
        "coordinates":  [ -103.3496092,20.6596988 ]
     },
     "properties": {
-    "FIELD1":98,
     "City":"Guadalajara",
+    "City_Summary":"Guadalajara, Mexico, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, healthcare and leisure & culture. ",
     "Address":"Guadalajara, Jalisco, Mexico",
     "Housing":9.527,
     "Cost_of_Living":9.49,
@@ -2879,8 +2879,8 @@
        "coordinates":  [ -90.5068824,14.6349149 ]
     },
     "properties": {
-    "FIELD1":99,
     "City":"Guatemala City",
+    "City_Summary":"Guatemala City, Guatemala, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, taxation and tolerance. Guatemala City is one of the top ten city matches for 0. 2% of Teleport users. ",
     "Address":"Guatemala City, Guatemala",
     "Housing":8.8125,
     "Cost_of_Living":8.175,
@@ -2905,12 +2905,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -63.5727683,44.6475811 ]
+       "coordinates":  [ -63.5752387,44.64876350000001 ]
     },
     "properties": {
-    "FIELD1":100,
     "City":"Halifax",
-    "Address":"Halifax, NS, Canada",
+    "City_Summary":"Halifax, Canada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
+    "Address":"Halifax Regional Municipality, NS, Canada",
     "Housing":6.895000000000001,
     "Cost_of_Living":4.9430000000000005,
     "Startups":3.624,
@@ -2937,8 +2937,8 @@
        "coordinates":  [ 9.9936819,53.5510846 ]
     },
     "properties": {
-    "FIELD1":101,
     "City":"Hamburg",
+    "City_Summary":"Hamburg, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in healthcare, environmental quality and tolerance. Hamburg is one of the top ten city matches for 1. 1% of Teleport users. ",
     "Address":"Hamburg, Germany",
     "Housing":5.944500000000001,
     "Cost_of_Living":4.904,
@@ -2966,8 +2966,8 @@
        "coordinates":  [ 9.732010400000002,52.3758916 ]
     },
     "properties": {
-    "FIELD1":102,
     "City":"Hannover",
+    "City_Summary":"Hannover, Germany, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. ",
     "Address":"Hanover, Germany",
     "Housing":7.754000000000001,
     "Cost_of_Living":6.000000000000001,
@@ -2995,8 +2995,8 @@
        "coordinates":  [ -82.3665956,23.1135925 ]
     },
     "properties": {
-    "FIELD1":103,
     "City":"Havana",
+    "City_Summary":"Havana, Cuba, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. ",
     "Address":"Havana, Cuba",
     "Housing":9.088999999999999,
     "Cost_of_Living":7.607999999999999,
@@ -3024,8 +3024,8 @@
        "coordinates":  [ 24.9383791,60.16985569999999 ]
     },
     "properties": {
-    "FIELD1":104,
     "City":"Helsinki",
+    "City_Summary":"Helsinki is a unique mix of influences from the Nordics and the East.  The city center is small enough to navigate by foot but offers a thriving underground cultural scene and more than 50 annual city festivals.  Finland is a world leader in clean technology and Helsinki is very environmentally conscious with 90% of all bottles and cans recycled.  The society prides itself on one of the best primary and secondary education systems in the world, equal opportunity and tolerance, creating a high standard of living and welcoming environment for innovation and tech start-ups. Helsinki is one of the top ten city matches for 3. 6% of Teleport users. ",
     "Address":"Helsinki, Finland",
     "Housing":5.396000000000001,
     "Cost_of_Living":4.121,
@@ -3053,8 +3053,8 @@
        "coordinates":  [ 106.6296638,10.8230989 ]
     },
     "properties": {
-    "FIELD1":105,
     "City":"Ho Chi Minh City",
+    "City_Summary":"Ho Chi Minh City, Vietnam, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and safety. ",
     "Address":"Ho Chi Minh City, Vietnam",
     "Housing":8.618,
     "Cost_of_Living":8.844000000000001,
@@ -3082,8 +3082,8 @@
        "coordinates":  [ 114.1693611,22.3193039 ]
     },
     "properties": {
-    "FIELD1":106,
     "City":"Hong Kong",
+    "City_Summary":"Hong Kong is a world financial center with low taxation rates and free trade.  The city is connected by a well-developed but cheap public transportation system and offers extensive international travel connections for its large expat community.  Adding its ease of doing business, the free public wifi,high safety rating, and unique status within China and it's no surprise that Hong Kong is a truly international city. Hong Kong is one of the top ten city matches for 10. 2% of Teleport users. ",
     "Address":"Hong Kong",
     "Housing":1,
     "Cost_of_Living":4.967,
@@ -3111,8 +3111,8 @@
        "coordinates":  [ -157.8583333,21.3069444 ]
     },
     "properties": {
-    "FIELD1":107,
     "City":"Honolulu",
+    "City_Summary":"Honolulu, Hawaii, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, leisure & culture and tolerance. ",
     "Address":"Honolulu, HI, USA",
     "Housing":2.3415000000000004,
     "Cost_of_Living":2.867,
@@ -3140,8 +3140,8 @@
        "coordinates":  [ -95.3698028,29.7604267 ]
     },
     "properties": {
-    "FIELD1":108,
     "City":"Houston",
+    "City_Summary":"Houston, Texas, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in startups and leisure & culture. Houston is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Houston, TX, USA",
     "Housing":5.224500000000001,
     "Cost_of_Living":6.162,
@@ -3169,8 +3169,8 @@
        "coordinates":  [ 78.486671,17.385044 ]
     },
     "properties": {
-    "FIELD1":109,
     "City":"Hyderabad",
+    "City_Summary":"Hyderabad, India, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, startups and safety. ",
     "Address":"Hyderabad, Telangana, India",
     "Housing":10,
     "Cost_of_Living":10,
@@ -3198,8 +3198,8 @@
        "coordinates":  [ -86.158068,39.768403 ]
     },
     "properties": {
-    "FIELD1":110,
     "City":"Indianapolis",
+    "City_Summary":"Indianapolis, Indiana, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in leisure & culture and tolerance. ",
     "Address":"Indianapolis, IN, USA",
     "Housing":6.266,
     "Cost_of_Living":5.478,
@@ -3227,8 +3227,8 @@
        "coordinates":  [ 11.4041024,47.2692124 ]
     },
     "properties": {
-    "FIELD1":111,
     "City":"Innsbruck",
+    "City_Summary":"Innsbruck, Austria, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and healthcare. ",
     "Address":"Innsbruck, Austria",
     "Housing":6.708,
     "Cost_of_Living":4.732,
@@ -3256,8 +3256,8 @@
        "coordinates":  [ 28.9783589,41.0082376 ]
     },
     "properties": {
-    "FIELD1":112,
     "City":"Istanbul",
+    "City_Summary":"Istanbul, Turkey, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and startups. Istanbul is one of the top ten city matches for 6. 0% of Teleport users. ",
     "Address":"İstanbul, Turkey",
     "Housing":9.137500000000001,
     "Cost_of_Living":8.787,
@@ -3285,8 +3285,8 @@
        "coordinates":  [ -81.65565099999999,30.3321838 ]
     },
     "properties": {
-    "FIELD1":113,
     "City":"Jacksonville",
+    "City_Summary":"Jacksonville, Florida, is among the top cities with a free business environment. This urban area is consistently ahead in environmental quality. ",
     "Address":"Jacksonville, FL, USA",
     "Housing":6.450000000000001,
     "Cost_of_Living":5.359,
@@ -3314,8 +3314,8 @@
        "coordinates":  [ 106.845599,-6.2087634 ]
     },
     "properties": {
-    "FIELD1":114,
     "City":"Jakarta",
+    "City_Summary":"Jakarta, Indonesia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and leisure & culture. Jakarta is one of the top ten city matches for 0. 4% of Teleport users. ",
     "Address":"Jakarta, Indonesia",
     "Housing":8.671,
     "Cost_of_Living":8.471,
@@ -3343,8 +3343,8 @@
        "coordinates":  [ 28.0473051,-26.2041028 ]
     },
     "properties": {
-    "FIELD1":115,
     "City":"Johannesburg",
+    "City_Summary":"Johannesburg, South Africa, is characterized by reasonably priced housing. This urban area is consistently ahead in cost of living. ",
     "Address":"Johannesburg, South Africa",
     "Housing":8.012,
     "Cost_of_Living":7.575000000000001,
@@ -3372,8 +3372,8 @@
        "coordinates":  [ -94.5785667,39.0997265 ]
     },
     "properties": {
-    "FIELD1":116,
     "City":"Kansas City",
+    "City_Summary":"Kansas City, Missouri, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and internet access. Kansas City is one of the top ten city matches for 2. 0% of Teleport users. ",
     "Address":"Kansas City, MO, USA",
     "Housing":6.7075,
     "Cost_of_Living":5.844,
@@ -3401,8 +3401,8 @@
        "coordinates":  [ 8.4036527,49.0068901 ]
     },
     "properties": {
-    "FIELD1":117,
     "City":"Karlsruhe",
+    "City_Summary":"Karlsruhe, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Karlsruhe, Germany",
     "Housing":7.764499999999998,
     "Cost_of_Living":5.294,
@@ -3430,8 +3430,8 @@
        "coordinates":  [ 85.3239605,27.7172453 ]
     },
     "properties": {
-    "FIELD1":118,
     "City":"Kathmandu",
+    "City_Summary":"Kathmandu, Nepal, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and tolerance. ",
     "Address":"Kathmandu 44600, Nepal",
     "Housing":10,
     "Cost_of_Living":9.445,
@@ -3459,8 +3459,8 @@
        "coordinates":  [ 30.5234,50.4501 ]
     },
     "properties": {
-    "FIELD1":119,
     "City":"Kiev",
+    "City_Summary":"With a history going back more than 1500 years, Kiev today is an economic and industrial center of Eastern Europe.  Known for its river-front location and historical landmarks, Kiev continues to develop, and boasts several international companies serving Ukraine's large domestic market.  Its expansive infrastructure offers some of the cheapest metro services in Europe, there are great leisure-time opportunities and the overall cost of living is very reasonable. Kiev is one of the top ten city matches for 4. 4% of Teleport users. ",
     "Address":"Kyiv, Ukraine, 02000",
     "Housing":9.0845,
     "Cost_of_Living":9.817,
@@ -3485,12 +3485,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -73.9973608,41.9270367 ]
+       "coordinates":  [ -76.79358,17.99702 ]
     },
     "properties": {
-    "FIELD1":120,
     "City":"Kingston",
-    "Address":"Kingston, NY 12401, USA",
+    "City_Summary":"Kingston, Jamaica, is characterized by reasonably priced housing. This urban area is consistently ahead in healthcare. ",
+    "Address":"Kingston, Jamaica",
     "Housing":8.8955,
     "Cost_of_Living":5.937,
     "Startups":2.6480000000000006,
@@ -3517,8 +3517,8 @@
        "coordinates":  [ -83.9207392,35.9606384 ]
     },
     "properties": {
-    "FIELD1":121,
     "City":"Knoxville",
+    "City_Summary":"Knoxville, Tennessee, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and internet access. ",
     "Address":"Knoxville, TN, USA",
     "Housing":6.9754999999999985,
     "Cost_of_Living":6.447000000000001,
@@ -3546,8 +3546,8 @@
        "coordinates":  [ 19.9449799,50.06465009999999 ]
     },
     "properties": {
-    "FIELD1":122,
     "City":"Krakow",
+    "City_Summary":"Krakow, Poland, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and healthcare. Krakow is one of the top ten city matches for 0. 6% of Teleport users. ",
     "Address":"Kraków, Poland",
     "Housing":8.4245,
     "Cost_of_Living":8.509,
@@ -3575,8 +3575,8 @@
        "coordinates":  [ 101.686855,3.139003 ]
     },
     "properties": {
-    "FIELD1":123,
     "City":"Kuala Lumpur",
+    "City_Summary":"Kuala Lumpur, Malaysia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, business freedom and leisure & culture. Kuala Lumpur is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "Housing":8.663499999999999,
     "Cost_of_Living":8.238,
@@ -3604,8 +3604,8 @@
        "coordinates":  [ 135.7681489,35.011564 ]
     },
     "properties": {
-    "FIELD1":124,
     "City":"Kyoto",
+    "City_Summary":"Kyoto, Japan, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, business freedom and healthcare. ",
     "Address":"Kyoto, Japan",
     "Housing":3.765,
     "Cost_of_Living":0,
@@ -3633,8 +3633,8 @@
        "coordinates":  [ 3.3792057,6.5243793 ]
     },
     "properties": {
-    "FIELD1":125,
     "City":"Lagos",
+    "City_Summary":"Lagos, Nigeria, differentiates itself with low living costs. This urban area is consistently ahead in housing. ",
     "Address":"Lagos, Nigeria",
     "Housing":7.767,
     "Cost_of_Living":9.098,
@@ -3662,8 +3662,8 @@
        "coordinates":  [ -68.11929359999999,-16.489689 ]
     },
     "properties": {
-    "FIELD1":126,
     "City":"La Paz",
+    "City_Summary":"La Paz, Bolivia, features a very safe living environment. When considering your preferences, this city does not have any category with a high rating. ",
     "Address":"La Paz, Bolivia",
     "Housing":4.724,
     "Cost_of_Living":0,
@@ -3691,8 +3691,8 @@
        "coordinates":  [ -15.4653897,28.1008837 ]
     },
     "properties": {
-    "FIELD1":127,
     "City":"Las Palmas de Gran Canaria",
+    "City_Summary":"Las Palmas de Gran Canaria, Spain, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. ",
     "Address":"Municipality of Las Palmas, Las Palmas, Spain",
     "Housing":8.232000000000001,
     "Cost_of_Living":7.717,
@@ -3720,8 +3720,8 @@
        "coordinates":  [ -115.1398296,36.1699412 ]
     },
     "properties": {
-    "FIELD1":128,
     "City":"Las Vegas",
+    "City_Summary":"Las Vegas, Nevada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, startups and tolerance. Las Vegas is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Las Vegas, NV, USA",
     "Housing":7.0009999999999994,
     "Cost_of_Living":5.7589999999999995,
@@ -3749,8 +3749,8 @@
        "coordinates":  [ 6.6322734,46.5196535 ]
     },
     "properties": {
-    "FIELD1":129,
     "City":"Lausanne",
+    "City_Summary":"Lausanne, Switzerland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and education. ",
     "Address":"Lausanne, Switzerland",
     "Housing":4.0755,
     "Cost_of_Living":1,
@@ -3778,8 +3778,8 @@
        "coordinates":  [ -1.5490774,53.8007554 ]
     },
     "properties": {
-    "FIELD1":130,
     "City":"Leeds",
+    "City_Summary":"Leeds, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Leeds, UK",
     "Housing":6.811,
     "Cost_of_Living":5.3629999999999995,
@@ -3807,8 +3807,8 @@
        "coordinates":  [ 12.3730747,51.3396955 ]
     },
     "properties": {
-    "FIELD1":131,
     "City":"Leipzig",
+    "City_Summary":"Leipzig, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Leipzig, Germany",
     "Housing":8.177,
     "Cost_of_Living":5.9110000000000005,
@@ -3836,8 +3836,8 @@
        "coordinates":  [ 3.057256,50.62925 ]
     },
     "properties": {
-    "FIELD1":132,
     "City":"Lille",
+    "City_Summary":"Lille, France, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Lille, France",
     "Housing":7.532000000000001,
     "Cost_of_Living":5.399000000000001,
@@ -3865,8 +3865,8 @@
        "coordinates":  [ -77.042754,-12.0463731 ]
     },
     "properties": {
-    "FIELD1":133,
     "City":"Lima",
+    "City_Summary":"Lima, Peru, is characterized by reasonably priced housing. Our data reflects that this city has a good ranking in cost of living and leisure & culture. ",
     "Address":"Lima, Peru",
     "Housing":8.712,
     "Cost_of_Living":8.496,
@@ -3894,8 +3894,8 @@
        "coordinates":  [ -9.1393366,38.7222524 ]
     },
     "properties": {
-    "FIELD1":134,
     "City":"Lisbon",
+    "City_Summary":"Lisbon, one of the oldest cities in the world, is a charming mix of Paris and San Francisco—at a fraction of the price.  It offers a relaxed and tolerant environment with great local cuisine.  Its central areas are best navigated by foot, allowing you to enjoy the grand architecture and pleasant climate, while its affordable public transportation system offers easy access to the rest of the city. Lisbon is one of the top ten city matches for 10. 4% of Teleport users. ",
     "Address":"Lisbon, Portugal",
     "Housing":6.734000000000001,
     "Cost_of_Living":7.004000000000001,
@@ -3923,8 +3923,8 @@
        "coordinates":  [ -115.4765659,32.6563349 ]
     },
     "properties": {
-    "FIELD1":135,
     "City":"Liverpool",
+    "City_Summary":"Liverpool, United Kingdom, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, travel connectivity and business freedom. ",
     "Address":"Boulevard Adolfo López Mateos 202, José María Ramírez, 21010 Mexicali, B.C., Mexico",
     "Housing":7.485,
     "Cost_of_Living":6.02,
@@ -3952,8 +3952,8 @@
        "coordinates":  [ 14.5057515,46.0569465 ]
     },
     "properties": {
-    "FIELD1":136,
     "City":"Ljubljana",
+    "City_Summary":"Ljubljana, Slovenia, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. Ljubljana is one of the top ten city matches for 1. 7% of Teleport users. ",
     "Address":"Ljubljana, Slovenia",
     "Housing":8.214000000000002,
     "Cost_of_Living":6.749000000000001,
@@ -3981,8 +3981,8 @@
        "coordinates":  [ -0.1277583,51.5073509 ]
     },
     "properties": {
-    "FIELD1":137,
     "City":"London",
+    "City_Summary":"London is packed with endless opportunities: it is one of the world's most inviting cities for startups, as well as home to world-class schools, universities and museums.  There is a robust transport network offering fast and easy commuting around London.  With its vibrant multicultural environment, London offers an enormous variety of cuisines, recreational opportunities and cultural activities that appeal to virtually any interest. London is one of the top ten city matches for 17. 3% of Teleport users. ",
     "Address":"London, UK",
     "Housing":1,
     "Cost_of_Living":3.9400000000000004,
@@ -4010,8 +4010,8 @@
        "coordinates":  [ -118.2436849,34.0522342 ]
     },
     "properties": {
-    "FIELD1":138,
     "City":"Los Angeles",
+    "City_Summary":"Los Angeles is a sprawling city of 500 square miles and the heart of a metropolitan area with 18 million residents.  It is a fabled California region, home to Hollywood and America's entertainment industry with year-round sunshine, world-famous beaches, and an intense car culture.  The \"City of Angels\" is a magnet to people from around the world and a uniquely exciting environment. Los Angeles is one of the top ten city matches for 11. 5% of Teleport users. ",
     "Address":"Los Angeles, CA, USA",
     "Housing":1.5274999999999999,
     "Cost_of_Living":4.556000000000001,
@@ -4039,8 +4039,8 @@
        "coordinates":  [ -85.7584557,38.2526647 ]
     },
     "properties": {
-    "FIELD1":139,
     "City":"Louisville",
+    "City_Summary":"Louisville, Kentucky, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and environmental quality. ",
     "Address":"Louisville, KY, USA",
     "Housing":7.258,
     "Cost_of_Living":6.358000000000001,
@@ -4068,8 +4068,8 @@
        "coordinates":  [ 6.129582999999999,49.815273 ]
     },
     "properties": {
-    "FIELD1":140,
     "City":"Luxembourg",
+    "City_Summary":"Luxembourg, Luxembourg, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, healthcare and environmental quality. Luxembourg is one of the top ten city matches for 1. 6% of Teleport users. ",
     "Address":"Luxembourg",
     "Housing":2.4530000000000003,
     "Cost_of_Living":3.411,
@@ -4097,8 +4097,8 @@
        "coordinates":  [ 24.029717,49.839683 ]
     },
     "properties": {
-    "FIELD1":141,
     "City":"Lviv",
+    "City_Summary":"Lviv, Ukraine, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and leisure & culture. ",
     "Address":"Lviv, Lviv Oblast, Ukraine, 79000",
     "Housing":9.778,
     "Cost_of_Living":10,
@@ -4126,8 +4126,8 @@
        "coordinates":  [ 4.835659,45.764043 ]
     },
     "properties": {
-    "FIELD1":142,
     "City":"Lyon",
+    "City_Summary":"Lyon, France, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. Lyon is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Lyon, France",
     "Housing":6.697000000000001,
     "Cost_of_Living":4.349,
@@ -4155,8 +4155,8 @@
        "coordinates":  [ -89.4012302,43.0730517 ]
     },
     "properties": {
-    "FIELD1":143,
     "City":"Madison",
+    "City_Summary":"Madison, Wisconsin, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. Madison is one of the top ten city matches for 2. 7% of Teleport users. ",
     "Address":"Madison, WI, USA",
     "Housing":5.8294999999999995,
     "Cost_of_Living":6.173,
@@ -4184,8 +4184,8 @@
        "coordinates":  [ -3.7037902,40.4167754 ]
     },
     "properties": {
-    "FIELD1":144,
     "City":"Madrid",
+    "City_Summary":"Madrid, Spain, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. Madrid is one of the top ten city matches for 6. 3% of Teleport users. ",
     "Address":"Madrid, Spain",
     "Housing":6.414000000000001,
     "Cost_of_Living":6.2490000000000006,
@@ -4213,8 +4213,8 @@
        "coordinates":  [ -4.4259962,36.7167456 ]
     },
     "properties": {
-    "FIELD1":145,
     "City":"Malaga",
+    "City_Summary":"Malaga, Spain, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. ",
     "Address":"Málaga, Spain",
     "Housing":8.0515,
     "Cost_of_Living":7.375,
@@ -4242,8 +4242,8 @@
        "coordinates":  [ 13.003822,55.604981 ]
     },
     "properties": {
-    "FIELD1":146,
     "City":"Malmo",
+    "City_Summary":"Malmo, Sweden, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, healthcare and environmental quality. ",
     "Address":"Malmö, Sweden",
     "Housing":7.263000000000001,
     "Cost_of_Living":5.57,
@@ -4271,8 +4271,8 @@
        "coordinates":  [ -86.2361744,12.1149926 ]
     },
     "properties": {
-    "FIELD1":147,
     "City":"Managua",
+    "City_Summary":"Managua, Nicaragua, features a very safe living environment. This urban area is consistently ahead in tolerance. ",
     "Address":"Managua, Nicaragua",
     "Housing":4.7855,
     "Cost_of_Living":0,
@@ -4300,8 +4300,8 @@
        "coordinates":  [ -2.2426305,53.4807593 ]
     },
     "properties": {
-    "FIELD1":148,
     "City":"Manchester",
+    "City_Summary":"Manchester, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and tolerance. Manchester is one of the top ten city matches for 1. 0% of Teleport users. ",
     "Address":"Manchester, UK",
     "Housing":6.455500000000001,
     "Cost_of_Living":5.049000000000001,
@@ -4329,8 +4329,8 @@
        "coordinates":  [ 120.9842195,14.5995124 ]
     },
     "properties": {
-    "FIELD1":149,
     "City":"Manila",
+    "City_Summary":"Manila, Philippines, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and leisure & culture. Manila is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Manila, Metro Manila, Philippines",
     "Housing":8.5955,
     "Cost_of_Living":8.751999999999999,
@@ -4358,8 +4358,8 @@
        "coordinates":  [ 5.36978,43.296482 ]
     },
     "properties": {
-    "FIELD1":150,
     "City":"Marseille",
+    "City_Summary":"Marseille, France, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and healthcare. ",
     "Address":"Marseille, France",
     "Housing":7.5885,
     "Cost_of_Living":6.026000000000002,
@@ -4387,8 +4387,8 @@
        "coordinates":  [ -75.56581530000001,6.2476376 ]
     },
     "properties": {
-    "FIELD1":151,
     "City":"Medellin",
+    "City_Summary":"Medellin, Colombia, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. Medellin is one of the top ten city matches for 2. 8% of Teleport users. ",
     "Address":"Medellín, Medellin, Antioquia, Colombia",
     "Housing":9.2315,
     "Cost_of_Living":9.315000000000001,
@@ -4416,8 +4416,8 @@
        "coordinates":  [ 144.9630576,-37.8136276 ]
     },
     "properties": {
-    "FIELD1":152,
     "City":"Melbourne",
+    "City_Summary":"Melbourne, Australia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, safety and healthcare. Melbourne is one of the top ten city matches for 6. 7% of Teleport users. ",
     "Address":"Melbourne VIC, Australia",
     "Housing":4.829999999999999,
     "Cost_of_Living":4.798000000000001,
@@ -4445,8 +4445,8 @@
        "coordinates":  [ -90.0489801,35.1495343 ]
     },
     "properties": {
-    "FIELD1":153,
     "City":"Memphis",
+    "City_Summary":"Memphis, Tennessee, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in housing and leisure & culture. ",
     "Address":"Memphis, TN, USA",
     "Housing":7.1145000000000005,
     "Cost_of_Living":5.829,
@@ -4474,8 +4474,8 @@
        "coordinates":  [ -99.133208,19.4326077 ]
     },
     "properties": {
-    "FIELD1":154,
     "City":"Mexico City",
+    "City_Summary":"Mexico City, Mexico, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and startups. Mexico City is one of the top ten city matches for 0. 7% of Teleport users. ",
     "Address":"Mexico City, CDMX, Mexico",
     "Housing":8.360000000000001,
     "Cost_of_Living":9.244,
@@ -4503,8 +4503,8 @@
        "coordinates":  [ -80.1917902,25.7616798 ]
     },
     "properties": {
-    "FIELD1":155,
     "City":"Miami",
+    "City_Summary":"Miami, Florida, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in startups and leisure & culture. Miami is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Miami, FL, USA",
     "Housing":3.0309999999999997,
     "Cost_of_Living":4.497,
@@ -4532,8 +4532,8 @@
        "coordinates":  [ 9.189982,45.4642035 ]
     },
     "properties": {
-    "FIELD1":156,
     "City":"Milan",
+    "City_Summary":"Milan, Italy, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. Milan is one of the top ten city matches for 0. 1% of Teleport users. ",
     "Address":"Milan, Metropolitan City of Milan, Italy",
     "Housing":5.194500000000001,
     "Cost_of_Living":4.801000000000001,
@@ -4561,8 +4561,8 @@
        "coordinates":  [ -87.9064736,43.0389025 ]
     },
     "properties": {
-    "FIELD1":157,
     "City":"Milwaukee",
+    "City_Summary":"Milwaukee, Wisconsin, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in environmental quality and leisure & culture. ",
     "Address":"Milwaukee, WI, USA",
     "Housing":6.1225,
     "Cost_of_Living":5.526,
@@ -4590,8 +4590,8 @@
        "coordinates":  [ -93.20099979999999,44.9374831 ]
     },
     "properties": {
-    "FIELD1":158,
     "City":"Minneapolis-Saint Paul",
+    "City_Summary":"Minneapolis-Saint Paul, Minnesota, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in healthcare, environmental quality and leisure & culture. Minneapolis-Saint Paul is one of the top ten city matches for 4. 5% of Teleport users. ",
     "Address":"Twin Cities, MN, USA",
     "Housing":4.738500000000001,
     "Cost_of_Living":5.042000000000001,
@@ -4619,8 +4619,8 @@
        "coordinates":  [ 27.558972,53.9006011 ]
     },
     "properties": {
-    "FIELD1":159,
     "City":"Minsk",
+    "City_Summary":"Minsk, Belarus, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and environmental quality. Minsk is one of the top ten city matches for 7. 2% of Teleport users. ",
     "Address":"Minsk, Belarus",
     "Housing":9.4955,
     "Cost_of_Living":9.289000000000001,
@@ -4648,8 +4648,8 @@
        "coordinates":  [ -56.16453139999999,-34.9011127 ]
     },
     "properties": {
-    "FIELD1":160,
     "City":"Montevideo",
+    "City_Summary":"Montevideo, Uruguay, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, healthcare and tolerance. ",
     "Address":"Montevideo, Montevideo Department, Uruguay",
     "Housing":8.183000000000002,
     "Cost_of_Living":6.197,
@@ -4677,8 +4677,8 @@
        "coordinates":  [ -73.567256,45.5016889 ]
     },
     "properties": {
-    "FIELD1":161,
     "City":"Montreal",
+    "City_Summary":"Montreal is the largest city of Canada's French-speaking region, and a center for finance, aerospace and international organizations.  With its unique culture, bilingual residents (French/English) and beautiful architecture, Montreal offers 50 of Canada's National Historic sites—more than any other Canadian city.  Add Montreal's tolerant people plus a relatively low cost of living and you get a city worthy of strong consideration. Montreal is one of the top ten city matches for 15. 0% of Teleport users. ",
     "Address":"Montreal, QC, Canada",
     "Housing":7.392000000000001,
     "Cost_of_Living":5.948,
@@ -4706,8 +4706,8 @@
        "coordinates":  [ 37.6172999,55.755826 ]
     },
     "properties": {
-    "FIELD1":162,
     "City":"Moscow",
+    "City_Summary":"Moscow is a lively city,rich in history and culture.  It is Russia's national center for visual and performing arts and home to some of the best known performance companies in the world. Renowned for its grand architecture,the city boasts excellent travel connections and low cost of living.  With more than 12 million residents, Moscow is among the most populous cities in the world, but roughly 40% of its territory is still covered by greenery. Moscow is one of the top ten city matches for 4. 7% of Teleport users. ",
     "Address":"Moscow, Russia",
     "Housing":6.555000000000001,
     "Cost_of_Living":8.099,
@@ -4735,8 +4735,8 @@
        "coordinates":  [ 72.8776559,19.0759837 ]
     },
     "properties": {
-    "FIELD1":163,
     "City":"Mumbai",
+    "City_Summary":"Mumbai, the most populous city in India, offers a wide variety of jobs from conventional industries to IT services.  It is also home to the Bollywood film industry. As India's capital of finance, Mumbai has the greatest number of fin-tech startups, while the cost of living and rental prices remain reasonably low. Mumbai is one of the top ten city matches for 14. 2% of Teleport users. ",
     "Address":"Mumbai, Maharashtra, India",
     "Housing":8.124,
     "Cost_of_Living":9.825,
@@ -4764,8 +4764,8 @@
        "coordinates":  [ 11.5819805,48.1351253 ]
     },
     "properties": {
-    "FIELD1":164,
     "City":"Munich",
+    "City_Summary":"Munich has a strong background in multiple industries, and is now a center for software and biotechnology.  It's also the second largest publishing center in the world.  People who love sports or nature aren't left out either: the Bavarian Alps allow winter lovers to indulge themselves while FC Bayern Munich is one of the most important football teams in the world. Munich is one of the top ten city matches for 32. 7% of Teleport users. ",
     "Address":"Munich, Germany",
     "Housing":4.23,
     "Cost_of_Living":4.648,
@@ -4793,8 +4793,8 @@
        "coordinates":  [ 36.8219462,-1.2920659 ]
     },
     "properties": {
-    "FIELD1":165,
     "City":"Nairobi",
+    "City_Summary":"Nairobi, Kenya, is characterized by reasonably priced housing. This urban area is consistently ahead in cost of living. ",
     "Address":"Nairobi, Kenya",
     "Housing":8.8505,
     "Cost_of_Living":8.431999999999999,
@@ -4822,8 +4822,8 @@
        "coordinates":  [ -1.553621,47.218371 ]
     },
     "properties": {
-    "FIELD1":166,
     "City":"Nantes",
+    "City_Summary":"Nantes, France, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Nantes, France",
     "Housing":7.7225,
     "Cost_of_Living":5.021,
@@ -4851,8 +4851,8 @@
        "coordinates":  [ -81.7948103,26.1420358 ]
     },
     "properties": {
-    "FIELD1":167,
     "City":"Naples",
+    "City_Summary":"Naples, Italy, is characterized by reasonably priced housing. Our data reflects that this city has a good ranking in healthcare and tolerance. ",
     "Address":"Naples, FL, USA",
     "Housing":8.215,
     "Cost_of_Living":5.81,
@@ -4880,8 +4880,8 @@
        "coordinates":  [ -86.7816016,36.1626638 ]
     },
     "properties": {
-    "FIELD1":168,
     "City":"Nashville",
+    "City_Summary":"Nashville, Tennessee, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in environmental quality, internet access and leisure & culture. Nashville is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Nashville, TN, USA",
     "Housing":4.4545,
     "Cost_of_Living":5.742000000000001,
@@ -4909,8 +4909,8 @@
        "coordinates":  [ -90.0715323,29.95106579999999 ]
     },
     "properties": {
-    "FIELD1":169,
     "City":"New Orleans",
+    "City_Summary":"New Orleans, Louisiana, is among the top cities with a free business environment. This urban area is consistently ahead in leisure & culture. ",
     "Address":"New Orleans, LA, USA",
     "Housing":5.339,
     "Cost_of_Living":4.991999999999999,
@@ -4938,8 +4938,8 @@
        "coordinates":  [ -74.0059728,40.7127753 ]
     },
     "properties": {
-    "FIELD1":170,
     "City":"New York",
+    "City_Summary":"The New York metropolitan area is one of the most populated cities in the world.  New York City itself is an international center for numerous industries including finance, theater, television, film, arts, and technology.  It is also home to an astonishing 37% of foreign-born residents.  Costs are high, but so are the energy levels and ambitious spirit.  Whether you're visiting or planning to move, the \"Big Apple\" has something to offer for everyone. New York is one of the top ten city matches for 13. 9% of Teleport users. ",
     "Address":"New York, NY, USA",
     "Housing":1,
     "Cost_of_Living":2.342,
@@ -4967,8 +4967,8 @@
        "coordinates":  [ -122.848327,39.1232253 ]
     },
     "properties": {
-    "FIELD1":171,
     "City":"Nice",
+    "City_Summary":"Nice, France, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in safety and healthcare. ",
     "Address":"Nice, CA, USA",
     "Housing":6.4985,
     "Cost_of_Living":4.475,
@@ -4996,8 +4996,8 @@
        "coordinates":  [ 33.38227639999999,35.1855659 ]
     },
     "properties": {
-    "FIELD1":172,
     "City":"Nicosia",
+    "City_Summary":"Nicosia, Cyprus, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. Nicosia is one of the top ten city matches for 0. 9% of Teleport users. ",
     "Address":"Nicosia, Cyprus",
     "Housing":8.631,
     "Cost_of_Living":6.301,
@@ -5025,8 +5025,8 @@
        "coordinates":  [ -97.5164276,35.4675602 ]
     },
     "properties": {
-    "FIELD1":173,
     "City":"Oklahoma City",
+    "City_Summary":"Oklahoma City, Oklahoma, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, environmental quality and internet access. Oklahoma City is one of the top ten city matches for 1. 6% of Teleport users. ",
     "Address":"Oklahoma City, OK, USA",
     "Housing":7.261000000000001,
     "Cost_of_Living":6.394,
@@ -5054,8 +5054,8 @@
        "coordinates":  [ -95.9345034,41.2565369 ]
     },
     "properties": {
-    "FIELD1":174,
     "City":"Omaha",
+    "City_Summary":"Omaha, Nebraska, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, healthcare and environmental quality. ",
     "Address":"Omaha, NE, USA",
     "Housing":7.040500000000001,
     "Cost_of_Living":5.994000000000001,
@@ -5083,8 +5083,8 @@
        "coordinates":  [ -81.3792365,28.5383355 ]
     },
     "properties": {
-    "FIELD1":175,
     "City":"Orlando",
+    "City_Summary":"Orlando, Florida, is among the top cities with a free business environment. This urban area is consistently ahead in environmental quality. Orlando is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Orlando, FL, USA",
     "Housing":5.778499999999999,
     "Cost_of_Living":5.284,
@@ -5112,8 +5112,8 @@
        "coordinates":  [ 135.5022535,34.6937249 ]
     },
     "properties": {
-    "FIELD1":176,
     "City":"Osaka",
+    "City_Summary":"Osaka, Japan, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and healthcare. ",
     "Address":"Osaka, Japan",
     "Housing":7.8315,
     "Cost_of_Living":4.819,
@@ -5141,8 +5141,8 @@
        "coordinates":  [ 10.7522454,59.9138688 ]
     },
     "properties": {
-    "FIELD1":177,
     "City":"Oslo",
+    "City_Summary":"Oslo, Norway, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Oslo is one of the top ten city matches for 0. 9% of Teleport users. ",
     "Address":"Oslo, Norway",
     "Housing":3.768,
     "Cost_of_Living":1.0380000000000003,
@@ -5170,8 +5170,8 @@
        "coordinates":  [ -75.69719309999999,45.4215296 ]
     },
     "properties": {
-    "FIELD1":178,
     "City":"Ottawa",
+    "City_Summary":"Ottawa, Canada, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. Ottawa is one of the top ten city matches for 6. 6% of Teleport users. ",
     "Address":"Ottawa, ON, Canada",
     "Housing":6.700499999999999,
     "Cost_of_Living":6.027,
@@ -5199,8 +5199,8 @@
        "coordinates":  [ 25.4650772,65.0120888 ]
     },
     "properties": {
-    "FIELD1":179,
     "City":"Oulu",
+    "City_Summary":"Oulu, Finland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. ",
     "Address":"Oulu, Finland",
     "Housing":3.7445,
     "Cost_of_Living":0,
@@ -5228,8 +5228,8 @@
        "coordinates":  [ -1.2577263,51.7520209 ]
     },
     "properties": {
-    "FIELD1":180,
     "City":"Oxford",
+    "City_Summary":"Oxford, United Kingdom, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. ",
     "Address":"Oxford, UK",
     "Housing":3.65,
     "Cost_of_Living":4.941000000000001,
@@ -5257,8 +5257,8 @@
        "coordinates":  [ -122.1430195,37.4418834 ]
     },
     "properties": {
-    "FIELD1":181,
     "City":"Palo Alto",
+    "City_Summary":"Palo Alto, California, is among the top cities with a high quality of education.  According to Teleport's data, this is a good place to live with high ratings in healthcare, environmental quality and economy. Palo Alto is part of Silicon Valley and the wider San Francisco Bay Area.  For more information on scores and rankings, check San Francisco Bay Area's Teleport profile. ",
     "Address":"Palo Alto, CA, USA",
     "Housing":0.5,
     "Cost_of_Living":0,
@@ -5286,9 +5286,9 @@
        "coordinates":  [ -80.782127,8.537981 ]
     },
     "properties": {
-    "FIELD1":182,
     "City":"Panama",
-    "Address":"Panama",
+    "City_Summary":"Panama City, Panama, features a very safe living environment. Our data reflects that this city has a good ranking in taxation and tolerance. ",
+    "Address":"Panama City, Panama",
     "Housing":3.1530000000000005,
     "Cost_of_Living":0,
     "Startups":3.5589999999999993,
@@ -5315,8 +5315,8 @@
        "coordinates":  [ 2.3522219,48.856614 ]
     },
     "properties": {
-    "FIELD1":183,
     "City":"Paris",
+    "City_Summary":"Paris, the most visited city in the world, is a historical, cultural and esthetic gem that has played a major role in European history for centuries.  Its overwhelming beauty, architectural wonders and national cuisine call to people from around the world, adding to its exciting and diverse environment. As a global economic center, Paris offers opportunities in a wide range of industries and business markets. Paris is one of the top ten city matches for 9. 5% of Teleport users. ",
     "Address":"Paris, France",
     "Housing":3.5835,
     "Cost_of_Living":3.664,
@@ -5344,8 +5344,8 @@
        "coordinates":  [ 115.8604572,-31.9505269 ]
     },
     "properties": {
-    "FIELD1":184,
     "City":"Perth",
+    "City_Summary":"Perth, Australia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. ",
     "Address":"Perth WA, Australia",
     "Housing":5.233,
     "Cost_of_Living":4.795,
@@ -5373,8 +5373,8 @@
        "coordinates":  [ -75.1652215,39.9525839 ]
     },
     "properties": {
-    "FIELD1":185,
     "City":"Philadelphia",
+    "City_Summary":"Philadelphia, Pennsylvania, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, internet access and leisure & culture. Philadelphia is one of the top ten city matches for 0. 4% of Teleport users. ",
     "Address":"Philadelphia, PA, USA",
     "Housing":4.207,
     "Cost_of_Living":4.422000000000001,
@@ -5402,8 +5402,8 @@
        "coordinates":  [ 104.9282099,11.5563738 ]
     },
     "properties": {
-    "FIELD1":186,
     "City":"Phnom Penh",
+    "City_Summary":"Phnom Penh, Cambodia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and taxation. ",
     "Address":"Phnom Penh, Cambodia",
     "Housing":8.552000000000001,
     "Cost_of_Living":8.001000000000001,
@@ -5431,8 +5431,8 @@
        "coordinates":  [ -112.0740373,33.4483771 ]
     },
     "properties": {
-    "FIELD1":187,
     "City":"Phoenix",
+    "City_Summary":"Phoenix, Arizona, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in leisure & culture and outdoors. Phoenix is one of the top ten city matches for 0. 2% of Teleport users. ",
     "Address":"Phoenix, AZ, USA",
     "Housing":6.5329999999999995,
     "Cost_of_Living":6.208,
@@ -5460,8 +5460,8 @@
        "coordinates":  [ 98.33808839999999,7.9519331 ]
     },
     "properties": {
-    "FIELD1":188,
     "City":"Phuket",
+    "City_Summary":"Phuket, Thailand, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, healthcare and taxation. ",
     "Address":"Phuket, Thailand",
     "Housing":8.823,
     "Cost_of_Living":7.602000000000001,
@@ -5489,8 +5489,8 @@
        "coordinates":  [ -79.9958864,40.44062479999999 ]
     },
     "properties": {
-    "FIELD1":189,
     "City":"Pittsburgh",
+    "City_Summary":"Pittsburgh, Pennsylvania, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in environmental quality, internet access and leisure & culture. Pittsburgh is one of the top ten city matches for 1. 0% of Teleport users. ",
     "Address":"Pittsburgh, PA, USA",
     "Housing":5.963500000000002,
     "Cost_of_Living":4.795,
@@ -5518,8 +5518,8 @@
        "coordinates":  [ -70.2568189,43.6590993 ]
     },
     "properties": {
-    "FIELD1":190,
     "City":"Portland, ME",
+    "City_Summary":"Portland, Maine, is a small, seaside city with a welcoming community and great outdoor environment.  With its natural beauty, low unemployment and safe environment it should be especially attractive for young families.  It has a distinct local business culture dominated by the port, niche cafes and boutiques.  With more than 200 restaurants, Portland has one of the highest per capita restaurant densities in the United States. Portland, ME is one of the top ten city matches for 0. 3% of Teleport users. ",
     "Address":"Portland, ME, USA",
     "Housing":0,
     "Cost_of_Living":0,
@@ -5547,8 +5547,8 @@
        "coordinates":  [ -122.6750261,45.5051064 ]
     },
     "properties": {
-    "FIELD1":191,
     "City":"Portland, OR",
+    "City_Summary":"Portland, Oregon, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, environmental quality and tolerance. Portland, OR is one of the top ten city matches for 0. 7% of Teleport users. ",
     "Address":"Portland, OR, USA",
     "Housing":4.138,
     "Cost_of_Living":4.924,
@@ -5573,12 +5573,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -71.080545,42.34820999999999 ]
+       "coordinates":  [ -8.61099,41.14961 ]
     },
     "properties": {
-    "FIELD1":192,
     "City":"Porto",
-    "Address":"Ring Rd, Boston, MA 02199, USA",
+    "City_Summary":"Porto, Portugal, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and safety. Porto is one of the top ten city matches for 1. 3% of Teleport users. ",
+    "Address":"Porto, Portugal",
     "Housing":8.109500000000002,
     "Cost_of_Living":7.422000000000001,
     "Startups":4.313000000000001,
@@ -5605,8 +5605,8 @@
        "coordinates":  [ -51.2176584,-30.0346471 ]
     },
     "properties": {
-    "FIELD1":193,
     "City":"Porto Alegre",
+    "City_Summary":"Porto Alegre, Brazil, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, leisure & culture and tolerance. ",
     "Address":"Porto Alegre, RS, Brazil",
     "Housing":9.221000000000002,
     "Cost_of_Living":8.120000000000001,
@@ -5634,8 +5634,8 @@
        "coordinates":  [ 14.4378005,50.0755381 ]
     },
     "properties": {
-    "FIELD1":194,
     "City":"Prague",
+    "City_Summary":"Prague, Czechia, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and healthcare. Prague is one of the top ten city matches for 11. 9% of Teleport users. ",
     "Address":"Prague, Czechia",
     "Housing":7.4305,
     "Cost_of_Living":7.569,
@@ -5660,11 +5660,11 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -71.4128343,41.8239891 ]
+       "coordinates":  [ -71.418884,41.825226 ]
     },
     "properties": {
-    "FIELD1":195,
     "City":"Providence",
+    "City_Summary":"Providence, Rhode Island, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and tolerance. ",
     "Address":"Providence, RI, USA",
     "Housing":3.1530000000000005,
     "Cost_of_Living":0,
@@ -5692,8 +5692,8 @@
        "coordinates":  [ -71.2079809,46.8138783 ]
     },
     "properties": {
-    "FIELD1":196,
     "City":"Quebec",
+    "City_Summary":"Quebec, Canada, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and healthcare. ",
     "Address":"Quebec City, QC, Canada",
     "Housing":8.5175,
     "Cost_of_Living":6.037,
@@ -5721,8 +5721,8 @@
        "coordinates":  [ -78.4678382,-0.1806532 ]
     },
     "properties": {
-    "FIELD1":197,
     "City":"Quito",
+    "City_Summary":"Quito, Ecuador, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and taxation. ",
     "Address":"Quito, Ecuador",
     "Housing":9.0165,
     "Cost_of_Living":7.822,
@@ -5750,8 +5750,8 @@
        "coordinates":  [ -78.6381787,35.7795897 ]
     },
     "properties": {
-    "FIELD1":198,
     "City":"Raleigh",
+    "City_Summary":"Raleigh, North Carolina, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in healthcare, education and environmental quality. Raleigh is one of the top ten city matches for 3. 4% of Teleport users. ",
     "Address":"Raleigh, NC, USA",
     "Housing":6.128500000000001,
     "Cost_of_Living":5.610000000000001,
@@ -5779,8 +5779,8 @@
        "coordinates":  [ -21.9426354,64.146582 ]
     },
     "properties": {
-    "FIELD1":199,
     "City":"Reykjavik",
+    "City_Summary":"Reykjavik, Iceland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Reykjavik is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"Reykjavík, Iceland",
     "Housing":2.7715,
     "Cost_of_Living":1,
@@ -5808,8 +5808,8 @@
        "coordinates":  [ -77.4360481,37.5407246 ]
     },
     "properties": {
-    "FIELD1":200,
     "City":"Richmond",
+    "City_Summary":"Richmond, Virginia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in environmental quality, internet access and tolerance. ",
     "Address":"Richmond, VA, USA",
     "Housing":6.439500000000002,
     "Cost_of_Living":5.949,
@@ -5837,8 +5837,8 @@
        "coordinates":  [ 24.1051865,56.9496487 ]
     },
     "properties": {
-    "FIELD1":201,
     "City":"Riga",
+    "City_Summary":"Riga is a great place for young people due to its low cost of living and vibrant creative scene.  It boasts excellent museums and art galleries, an active night life and close-by unspoiled nature.  Riga is also an avid sports city with frequent football, basketball and ice hockey matches. Riga is one of the top ten city matches for 1. 1% of Teleport users. ",
     "Address":"Riga, Latvia",
     "Housing":8.933000000000002,
     "Cost_of_Living":7.329,
@@ -5866,8 +5866,8 @@
        "coordinates":  [ -43.1728965,-22.9068467 ]
     },
     "properties": {
-    "FIELD1":202,
     "City":"Rio De Janeiro",
+    "City_Summary":"Rio de Janeiro is the second most populous city in Brazil, known for the beautiful scenery samba rhythms and Carnival.  It is the national center for oil, mining and telecommunications, but the major economic base is in tourism and entertainment industries.  With affordable rentals, friendly expat community and tropical climate, Rio is for people looking for a relaxed and welcoming environment. Rio De Janeiro is one of the top ten city matches for 0. 2% of Teleport users. ",
     "Address":"Rio de Janeiro, State of Rio de Janeiro, Brazil",
     "Housing":8.32,
     "Cost_of_Living":7.751,
@@ -5895,8 +5895,8 @@
        "coordinates":  [ 46.6752957,24.7135517 ]
     },
     "properties": {
-    "FIELD1":203,
     "City":"Riyadh",
+    "City_Summary":"Riyadh, Saudi Arabia, is characterized by low taxes. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and safety. ",
     "Address":"Riyadh Saudi Arabia",
     "Housing":8.6965,
     "Cost_of_Living":7.806000000000001,
@@ -5924,8 +5924,8 @@
        "coordinates":  [ -77.6088465,43.15657789999999 ]
     },
     "properties": {
-    "FIELD1":204,
     "City":"Rochester",
+    "City_Summary":"Rochester, New York, is among the top cities with a free business environment. This urban area is consistently ahead in housing. ",
     "Address":"Rochester, NY, USA",
     "Housing":6.727,
     "Cost_of_Living":5.4879999999999995,
@@ -5953,8 +5953,8 @@
        "coordinates":  [ 12.4963655,41.9027835 ]
     },
     "properties": {
-    "FIELD1":205,
     "City":"Rome",
+    "City_Summary":"Rome, the Eternal City,is a historic marvel with great travel connections mild Mediterranean climate and intense urban energy.  Its outgoing society is known for its style, fondness for football and the world-famous restaurants and cafes that can be sampled on every corner.  Rome also hosts an independent country—Vatican City—within its borders.  Its long history and modern achievements make Rome one of the most visited cities in the world. ",
     "Address":"Rome, Metropolitan City of Rome, Italy",
     "Housing":5.6025,
     "Cost_of_Living":5.323,
@@ -5982,8 +5982,8 @@
        "coordinates":  [ 4.4777326,51.9244201 ]
     },
     "properties": {
-    "FIELD1":206,
     "City":"Rotterdam",
+    "City_Summary":"Rotterdam is a multicultural hub with a modern look, low level of corruption, an advanced public transport system and superb network of bike-paths.  While less touristy than some of its neighboring Dutch cities, Rotterdamhosts the largest port in Europe, making it an important transit, logistical and marine center.  With its high quality of life and lively cultural scene, Rotterdam has been welcoming visitors for almost 800 years. Rotterdam is one of the top ten city matches for 1. 6% of Teleport users. ",
     "Address":"Rotterdam, Netherlands",
     "Housing":6.0440000000000005,
     "Cost_of_Living":4.934000000000001,
@@ -6011,8 +6011,8 @@
        "coordinates":  [ 30.3609096,59.9310584 ]
     },
     "properties": {
-    "FIELD1":207,
     "City":"Saint Petersburg",
+    "City_Summary":"Saint Petersburg, Russia, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and safety. Saint Petersburg is one of the top ten city matches for 0. 4% of Teleport users. ",
     "Address":"St Petersburg, Russia",
     "Housing":8.3605,
     "Cost_of_Living":8.673,
@@ -6040,8 +6040,8 @@
        "coordinates":  [ -111.8910474,40.7607793 ]
     },
     "properties": {
-    "FIELD1":208,
     "City":"Salt Lake City",
+    "City_Summary":"Salt Lake City, Utah, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in venture capital, internet access and tolerance. Salt Lake City is one of the top ten city matches for 2. 4% of Teleport users. ",
     "Address":"Salt Lake City, UT, USA",
     "Housing":6.141000000000001,
     "Cost_of_Living":6.172000000000001,
@@ -6069,8 +6069,8 @@
        "coordinates":  [ -98.49362819999999,29.4241219 ]
     },
     "properties": {
-    "FIELD1":209,
     "City":"San Antonio",
+    "City_Summary":"San Antonio, Texas, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, internet access and leisure & culture. San Antonio is one of the top ten city matches for 0. 5% of Teleport users. ",
     "Address":"San Antonio, TX, USA",
     "Housing":6.402000000000001,
     "Cost_of_Living":6.683,
@@ -6098,8 +6098,8 @@
        "coordinates":  [ -117.1610838,32.715738 ]
     },
     "properties": {
-    "FIELD1":210,
     "City":"San Diego",
+    "City_Summary":"San Diego, California, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, venture capital and safety. San Diego is one of the top ten city matches for 1. 4% of Teleport users. ",
     "Address":"San Diego, CA, USA",
     "Housing":2.9335,
     "Cost_of_Living":5.156000000000001,
@@ -6127,8 +6127,8 @@
        "coordinates":  [ -122.2913078,37.8271784 ]
     },
     "properties": {
-    "FIELD1":211,
     "City":"San Francisco Bay Area",
+    "City_Summary":"San Francisco Bay Area, California, is among the leading cities with a higher number of accelerators or available funding. According to Teleport's city rankings, this is a good place to live with high ratings in startups, business freedom and education. San Francisco Bay Area is one of the top ten city matches for 6. 9% of Teleport users. ",
     "Address":"San Francisco Bay Area, CA, USA",
     "Housing":1,
     "Cost_of_Living":2.618,
@@ -6156,8 +6156,8 @@
        "coordinates":  [ -121.8863286,37.3382082 ]
     },
     "properties": {
-    "FIELD1":212,
     "City":"San Jose",
+    "City_Summary":"San Jose, Costa Rica, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. ",
     "Address":"San Jose, CA, USA",
     "Housing":8.1645,
     "Cost_of_Living":6.728000000000001,
@@ -6185,8 +6185,8 @@
        "coordinates":  [ -66.1057355,18.4655394 ]
     },
     "properties": {
-    "FIELD1":213,
     "City":"San Juan",
+    "City_Summary":"San Juan, Puerto Rico, is characterized by reasonably priced housing. This urban area is consistently ahead in leisure & culture. ",
     "Address":"San Juan, Puerto Rico",
     "Housing":7.427500000000001,
     "Cost_of_Living":5.9799999999999995,
@@ -6214,8 +6214,8 @@
        "coordinates":  [ -120.6596156,35.2827524 ]
     },
     "properties": {
-    "FIELD1":214,
     "City":"San Luis Obispo",
+    "City_Summary":"San Luis Obispo, California, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, environmental quality and internet access. ",
     "Address":"San Luis Obispo, CA, USA",
     "Housing":1.7245,
     "Cost_of_Living":0,
@@ -6243,8 +6243,8 @@
        "coordinates":  [ -89.2181911,13.6929403 ]
     },
     "properties": {
-    "FIELD1":215,
     "City":"San Salvador",
+    "City_Summary":"San Salvador, El Salvador, is characterized by reasonably priced housing. This urban area is consistently ahead in cost of living. ",
     "Address":"San Salvador, El Salvador",
     "Housing":8.8015,
     "Cost_of_Living":7.7429999999999986,
@@ -6272,8 +6272,8 @@
        "coordinates":  [ -70.6692655,-33.4488897 ]
     },
     "properties": {
-    "FIELD1":216,
     "City":"Santiago",
+    "City_Summary":"Santiago, Chile, is characterized by low taxes. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. Santiago is one of the top ten city matches for 1. 7% of Teleport users. ",
     "Address":"Santiago, Santiago Metropolitan Region, Chile",
     "Housing":8.3815,
     "Cost_of_Living":7.237,
@@ -6301,8 +6301,8 @@
        "coordinates":  [ -69.93121169999999,18.4860575 ]
     },
     "properties": {
-    "FIELD1":217,
     "City":"Santo Domingo",
+    "City_Summary":"Santo Domingo, Dominican Republic, is characterized by reasonably priced housing. This urban area is consistently ahead in cost of living. ",
     "Address":"Santo Domingo, Dominican Republic",
     "Housing":9.289000000000001,
     "Cost_of_Living":8.076000000000002,
@@ -6330,8 +6330,8 @@
        "coordinates":  [ -46.63330939999999,-23.5505199 ]
     },
     "properties": {
-    "FIELD1":218,
     "City":"Sao Paulo",
+    "City_Summary":"Sao Paulo, Brazil, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and startups. Sao Paulo is one of the top ten city matches for 0. 4% of Teleport users. ",
     "Address":"São Paulo, State of São Paulo, Brazil",
     "Housing":8.316,
     "Cost_of_Living":7.823000000000001,
@@ -6359,8 +6359,8 @@
        "coordinates":  [ 18.4130763,43.8562586 ]
     },
     "properties": {
-    "FIELD1":219,
     "City":"Sarajevo",
+    "City_Summary":"Sarajevo, Bosnia and Herzegovina, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and taxation. Sarajevo is one of the top ten city matches for 1. 9% of Teleport users. ",
     "Address":"Sarajevo, Bosnia and Herzegovina",
     "Housing":9.6925,
     "Cost_of_Living":8.659,
@@ -6388,8 +6388,8 @@
        "coordinates":  [ -106.6701577,52.157902 ]
     },
     "properties": {
-    "FIELD1":220,
     "City":"Saskatoon",
+    "City_Summary":"Saskatoon, Canada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Saskatoon, SK, Canada",
     "Housing":7.159500000000001,
     "Cost_of_Living":5.042000000000001,
@@ -6417,8 +6417,8 @@
        "coordinates":  [ -122.3320708,47.6062095 ]
     },
     "properties": {
-    "FIELD1":221,
     "City":"Seattle",
+    "City_Summary":"Seattle, Washington, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, venture capital and environmental quality. Seattle is one of the top ten city matches for 3. 2% of Teleport users. ",
     "Address":"Seattle, WA, USA",
     "Housing":2.291,
     "Cost_of_Living":3.79,
@@ -6446,8 +6446,8 @@
        "coordinates":  [ 126.9779692,37.566535 ]
     },
     "properties": {
-    "FIELD1":222,
     "City":"Seoul",
+    "City_Summary":"Seoul is a fast-paced metropolis with 24 hour facilities and expat-friendly social environment.  The vibrant nightlife scene, fabulous pop culture as well as the refreshing nature can be reached by using Seoul’s affordable and reliable public transport system, which is also equipped with public wifi common to the most wired city in the world.  The advanced technological environment and delicious local food combined with the low crime rate truly make it a highly attractive destination. Seoul is one of the top ten city matches for 18. 4% of Teleport users. ",
     "Address":"Seoul, South Korea",
     "Housing":6.142500000000001,
     "Cost_of_Living":3.698000000000001,
@@ -6475,8 +6475,8 @@
        "coordinates":  [ -5.9844589,37.3890924 ]
     },
     "properties": {
-    "FIELD1":223,
     "City":"Seville",
+    "City_Summary":"Seville, Spain, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. ",
     "Address":"Seville, Spain",
     "Housing":8.095500000000001,
     "Cost_of_Living":6.961,
@@ -6504,8 +6504,8 @@
        "coordinates":  [ 121.473701,31.230416 ]
     },
     "properties": {
-    "FIELD1":224,
     "City":"Shanghai",
+    "City_Summary":"Shanghai, China, is among the leading cities with a higher number of accelerators or available funding. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, travel connectivity and safety. Shanghai is one of the top ten city matches for 4. 3% of Teleport users. ",
     "Address":"Shanghai, China",
     "Housing":5.744,
     "Cost_of_Living":7.179,
@@ -6533,8 +6533,8 @@
        "coordinates":  [ 103.819836,1.352083 ]
     },
     "properties": {
-    "FIELD1":225,
     "City":"Singapore",
+    "City_Summary":"Singapore is the futuristic bridge between East and West.  It is an attractive site for startups, offering access to capital and a highly qualified workforce.  When it comes to culture, the city is a dense mix of Chinese, Indian and Malay as well as Western influences.  Despite Singapore’s high urban density, it remains as one of the greenest cities in the world—nearly half of its compact land area is filled with lush greenery. Singapore is one of the top ten city matches for 42. 0% of Teleport users. ",
     "Address":"Singapore",
     "Housing":1.7449999999999999,
     "Cost_of_Living":3.4890000000000003,
@@ -6562,8 +6562,8 @@
        "coordinates":  [ 21.4254355,41.9981294 ]
     },
     "properties": {
-    "FIELD1":226,
     "City":"Skopje",
+    "City_Summary":"Skopje, Macedonia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, business freedom and safety. Skopje is one of the top ten city matches for 1. 9% of Teleport users. ",
     "Address":"Skopje, North Macedonia",
     "Housing":9.740500000000003,
     "Cost_of_Living":9.110000000000001,
@@ -6591,8 +6591,8 @@
        "coordinates":  [ 23.3218675,42.6977082 ]
     },
     "properties": {
-    "FIELD1":227,
     "City":"Sofia",
+    "City_Summary":"Sofia, Bulgaria, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and taxation. Sofia is one of the top ten city matches for 2. 6% of Teleport users. ",
     "Address":"Sofia, Bulgaria",
     "Housing":9.306,
     "Cost_of_Living":8.55,
@@ -6620,8 +6620,8 @@
        "coordinates":  [ -90.19940419999999,38.6270025 ]
     },
     "properties": {
-    "FIELD1":228,
     "City":"St. Louis",
+    "City_Summary":"St.  Louis, Missouri, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and healthcare. St.  Louis is one of the top ten city matches for 1. 4% of Teleport users. ",
     "Address":"St. Louis, MO, USA",
     "Housing":6.958,
     "Cost_of_Living":5.504,
@@ -6649,8 +6649,8 @@
        "coordinates":  [ 18.0685808,59.32932349999999 ]
     },
     "properties": {
-    "FIELD1":229,
     "City":"Stockholm",
+    "City_Summary":"Stockholm has emerged as one of Europe's innovation and entrepreneurial capitals with a vibrant start-up scene and open, tolerant society.  It is also one of the cleanest cities in the world with a population of roughly 1 million residents embracing green-leaning programs and strong environmental protection.  Stockholm's winter climate can be a challenge to some, but even then, very few would turn down the opportunity to spend time in this welcoming city. Stockholm is one of the top ten city matches for 1. 2% of Teleport users. ",
     "Address":"Stockholm, Sweden",
     "Housing":4.865,
     "Cost_of_Living":4.36,
@@ -6678,8 +6678,8 @@
        "coordinates":  [ 9.1829321,48.7758459 ]
     },
     "properties": {
-    "FIELD1":230,
     "City":"Stuttgart",
+    "City_Summary":"Stuttgart, Germany, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Stuttgart is one of the top ten city matches for 2. 1% of Teleport users. ",
     "Address":"Stuttgart, Germany",
     "Housing":6.314000000000001,
     "Cost_of_Living":5.673000000000002,
@@ -6707,8 +6707,8 @@
        "coordinates":  [ 151.2092955,-33.8688197 ]
     },
     "properties": {
-    "FIELD1":231,
     "City":"Sydney",
+    "City_Summary":"Sydney, Australia, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in startups, safety and healthcare. Sydney is one of the top ten city matches for 2. 1% of Teleport users. ",
     "Address":"Sydney NSW, Australia",
     "Housing":1.9865000000000002,
     "Cost_of_Living":4.128,
@@ -6736,8 +6736,8 @@
        "coordinates":  [ 121.5654177,25.0329694 ]
     },
     "properties": {
-    "FIELD1":232,
     "City":"Taipei",
+    "City_Summary":"Taipei, Taiwan, features a very safe living environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and economy. Taipei is one of the top ten city matches for 13. 9% of Teleport users. ",
     "Address":"Taipei, Taiwan",
     "Housing":7.977,
     "Cost_of_Living":5.644,
@@ -6765,8 +6765,8 @@
        "coordinates":  [ 24.7535747,59.43696079999999 ]
     },
     "properties": {
-    "FIELD1":233,
     "City":"Tallinn",
+    "City_Summary":"With its stunning old town and high tech culture, Tallinn offers a unique blend of history and the modern 21st century living.  It is among the most wired cities in the world, offering universal free public wifi and free public transportation for residents.  The vibrant start-up scene is actively supported by the government and the city's strong tech eco-system.  With low tax rates, cost of living and the seaside location, Tallinn is a truly inviting place to live. Tallinn is one of the top ten city matches for 14. 5% of Teleport users. ",
     "Address":"Tallinn, Estonia",
     "Housing":8.376500000000002,
     "Cost_of_Living":6.931000000000001,
@@ -6794,9 +6794,9 @@
        "coordinates":  [ -82.38857829999999,28.274347 ]
     },
     "properties": {
-    "FIELD1":234,
     "City":"Tampa Bay Area",
-    "Address":"Tampa-St. Petersburg Metropolitan Area, FL, USA",
+    "City_Summary":"Tampa Bay Area, Florida, is among the top cities with a free business environment. Our data reflects that this city has a good ranking in environmental quality and internet access. Tampa Bay Area is one of the top ten city matches for 1. 2% of Teleport users. ",
+    "Address":"Tampa Bay Area, FL, USA",
     "Housing":5.696,
     "Cost_of_Living":5.253,
     "Startups":6.3469999999999995,
@@ -6823,8 +6823,8 @@
        "coordinates":  [ 23.7609535,61.4977524 ]
     },
     "properties": {
-    "FIELD1":235,
     "City":"Tampere",
+    "City_Summary":"Tampere, Finland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Tampere, Finland",
     "Housing":6.936,
     "Cost_of_Living":4.622,
@@ -6852,8 +6852,8 @@
        "coordinates":  [ 26.7290383,58.37798299999999 ]
     },
     "properties": {
-    "FIELD1":236,
     "City":"Tartu",
+    "City_Summary":"Tartu is a true student town and home to Estonia's oldest university.  Its academic atmosphere and high concentration of bright minds makes it a center for innovation and entrepreneurship.  With safe and tolerant environment, the city takes pride in its urban greenery, easy transit and excellent healthcare, all contributing to a high quality of life at a reasonable cost. Tartu is one of the top ten city matches for 9. 9% of Teleport users. ",
     "Address":"Tartu, Estonia",
     "Housing":8.961000000000002,
     "Cost_of_Living":7.47,
@@ -6881,8 +6881,8 @@
        "coordinates":  [ 69.2400734,41.2994958 ]
     },
     "properties": {
-    "FIELD1":237,
     "City":"Tashkent",
+    "City_Summary":"Tashkent, Uzbekistan, features a very safe living environment. When considering your preferences, this city does not have any category with a high rating. ",
     "Address":"Tashkent, Uzbekistan",
     "Housing":5,
     "Cost_of_Living":0,
@@ -6910,8 +6910,8 @@
        "coordinates":  [ 44.827096,41.7151377 ]
     },
     "properties": {
-    "FIELD1":238,
     "City":"Tbilisi",
+    "City_Summary":"Tbilisi, Georgia, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. Tbilisi is one of the top ten city matches for 4. 6% of Teleport users. ",
     "Address":"Tbilisi, Georgia",
     "Housing":9.4905,
     "Cost_of_Living":9.765,
@@ -6939,8 +6939,8 @@
        "coordinates":  [ 51.3889736,35.6891975 ]
     },
     "properties": {
-    "FIELD1":239,
     "City":"Tehran",
+    "City_Summary":"Tehran, Iran, differentiates itself with low living costs. Our data reflects that this city has a good ranking in housing and safety. ",
     "Address":"Tehran, Tehran Province, Iran",
     "Housing":8.302999999999999,
     "Cost_of_Living":9.544,
@@ -6968,8 +6968,8 @@
        "coordinates":  [ 34.78176759999999,32.0852999 ]
     },
     "properties": {
-    "FIELD1":240,
     "City":"Tel Aviv",
+    "City_Summary":"Tel Aviv, Israel, is among the leading cities with a higher number of accelerators or available funding. According to Teleport's city rankings, this is a good place to live with high ratings in startups, business freedom and safety. Tel Aviv is one of the top ten city matches for 0. 1% of Teleport users. ",
     "Address":"Tel Aviv-Yafo, Israel",
     "Housing":4.91,
     "Cost_of_Living":4.370000000000001,
@@ -6997,8 +6997,8 @@
        "coordinates":  [ 4.3006999,52.0704978 ]
     },
     "properties": {
-    "FIELD1":241,
     "City":"The Hague",
+    "City_Summary":"The Hague, Netherlands, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. ",
     "Address":"The Hague, Netherlands",
     "Housing":6.053000000000001,
     "Cost_of_Living":4.653,
@@ -7026,8 +7026,8 @@
        "coordinates":  [ 22.9444191,40.6400629 ]
     },
     "properties": {
-    "FIELD1":242,
     "City":"Thessaloniki",
+    "City_Summary":"Thessaloniki, Greece, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and leisure & culture. ",
     "Address":"Thessaloniki, Greece",
     "Housing":9.3775,
     "Cost_of_Living":6.6000000000000005,
@@ -7055,8 +7055,8 @@
        "coordinates":  [ 139.6503106,35.6761919 ]
     },
     "properties": {
-    "FIELD1":243,
     "City":"Tokyo",
+    "City_Summary":"Tokyo is one of the most vibrant and modern cities in the world.  It provides a wide range of opportunities from recreational activities to job offers, and is therefore an appealing choice for people looking for a change.  When it comes to food, you are spoiled with choices: there are more restaurants than you could visit in your lifetime.  It is also a relatively green city, as 3. 6% of Tokyo is covered by parks and forests, and, despite its size, it is still among the safest cities in the world. Tokyo is one of the top ten city matches for 8. 5% of Teleport users. ",
     "Address":"Tokyo, Japan",
     "Housing":5.657000000000001,
     "Cost_of_Living":3.431,
@@ -7084,8 +7084,8 @@
        "coordinates":  [ -79.3831843,43.653226 ]
     },
     "properties": {
-    "FIELD1":244,
     "City":"Toronto",
+    "City_Summary":"Toronto is a multicultural city in every sense of the word.  Nearly half of its population are immigrants from virtually every corner of the globe.  The city is internationally known as a center of finance and business as well as the film and television industry.  However, there are still plenty of ways to unwind, be it hiking in the nature with breathtaking views or immersing in the local cultural scene. Toronto is one of the top ten city matches for 39. 4% of Teleport users. ",
     "Address":"Toronto, ON, Canada",
     "Housing":4.66,
     "Cost_of_Living":5.271,
@@ -7113,8 +7113,8 @@
        "coordinates":  [ 1.444209,43.604652 ]
     },
     "properties": {
-    "FIELD1":245,
     "City":"Toulouse",
+    "City_Summary":"Toulouse, France, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Toulouse, France",
     "Housing":7.5440000000000005,
     "Cost_of_Living":4.552,
@@ -7142,8 +7142,8 @@
        "coordinates":  [ 10.1815316,36.8064948 ]
     },
     "properties": {
-    "FIELD1":246,
     "City":"Tunis",
+    "City_Summary":"Tunis, Tunisia, differentiates itself with low living costs. According to Teleport's city rankings, this is a good place to live with high ratings in housing, business freedom and safety. ",
     "Address":"Tunis, Tunisia",
     "Housing":9.968,
     "Cost_of_Living":9.998000000000001,
@@ -7171,8 +7171,8 @@
        "coordinates":  [ 7.686864,45.0703393 ]
     },
     "properties": {
-    "FIELD1":247,
     "City":"Turin",
+    "City_Summary":"Turin, Italy, is characterized by reasonably priced housing. Our data reflects that this city has a good ranking in healthcare and leisure & culture. ",
     "Address":"Turin, Metropolitan City of Turin, Italy",
     "Housing":8.069500000000001,
     "Cost_of_Living":5.612,
@@ -7200,8 +7200,8 @@
        "coordinates":  [ 22.2666302,60.4518126 ]
     },
     "properties": {
-    "FIELD1":248,
     "City":"Turku",
+    "City_Summary":"Turku, Finland, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, commute and safety. ",
     "Address":"Turku, Finland",
     "Housing":7.534000000000002,
     "Cost_of_Living":5.07,
@@ -7229,8 +7229,8 @@
        "coordinates":  [ 17.6389267,59.85856380000001 ]
     },
     "properties": {
-    "FIELD1":249,
     "City":"Uppsala",
+    "City_Summary":"Uppsala, Sweden, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, safety and healthcare. ",
     "Address":"Uppsala, Sweden",
     "Housing":7.16,
     "Cost_of_Living":5.442,
@@ -7258,8 +7258,8 @@
        "coordinates":  [ 5.1214201,52.09073739999999 ]
     },
     "properties": {
-    "FIELD1":250,
     "City":"Utrecht",
+    "City_Summary":"Utrecht, Netherlands, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in travel connectivity, safety and healthcare. Utrecht is one of the top ten city matches for 3. 8% of Teleport users. ",
     "Address":"Utrecht, Netherlands",
     "Housing":5.4665,
     "Cost_of_Living":4.604,
@@ -7284,11 +7284,11 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -0.3762881,39.4699075 ]
+       "coordinates":  [ -0.37739,39.46975 ]
     },
     "properties": {
-    "FIELD1":251,
     "City":"Valencia",
+    "City_Summary":"Valencia, Spain, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, cost of living and business freedom. Valencia is one of the top ten city matches for 0. 9% of Teleport users. ",
     "Address":"Valencia, Spain",
     "Housing":8.135500000000002,
     "Cost_of_Living":6.872,
@@ -7316,8 +7316,8 @@
        "coordinates":  [ 14.5145528,35.8989085 ]
     },
     "properties": {
-    "FIELD1":252,
     "City":"Valletta",
+    "City_Summary":"Valletta, Malta, features a very safe living environment. Our data reflects that this city has a good ranking in healthcare and tolerance. ",
     "Address":"Valletta, Malta",
     "Housing":3.1530000000000005,
     "Cost_of_Living":0,
@@ -7345,8 +7345,8 @@
        "coordinates":  [ -123.1207375,49.2827291 ]
     },
     "properties": {
-    "FIELD1":253,
     "City":"Vancouver",
+    "City_Summary":"Vancouver is a city with high-rise buildings, picturesque mountains and easily distinguishable ethnic neighborhoods.  The city ranks high in cleanliness and quality of living, but is also one of the most expensive cities in Canada.  Besides forestry, Vancouver is becoming an influencer in industries like software, film and biotechnology.  For those interested in being in the open air, there are plenty of opportunities from boating to mountain skiing. Vancouver is one of the top ten city matches for 26. 4% of Teleport users. ",
     "Address":"Vancouver, BC, Canada",
     "Housing":4.080500000000001,
     "Cost_of_Living":5.259,
@@ -7374,8 +7374,8 @@
        "coordinates":  [ -97.0035982,28.8052674 ]
     },
     "properties": {
-    "FIELD1":254,
     "City":"Victoria",
+    "City_Summary":"Victoria, Canada, is characterized by a clean environment. According to Teleport's city rankings, this is a good place to live with high ratings in business freedom, safety and healthcare. ",
     "Address":"Victoria, TX, USA",
     "Housing":5.696,
     "Cost_of_Living":5.703,
@@ -7403,8 +7403,8 @@
        "coordinates":  [ 16.3738189,48.2081743 ]
     },
     "properties": {
-    "FIELD1":255,
     "City":"Vienna",
+    "City_Summary":"Vienna is a truly imperial city filled with palaces, gardens and historical sites.  Its wealth and power contributed greatly to the arts and development of classical music.  It is also known as one of the great cafe cities of the world with a coffee-house culture dating back to the 17th century.  The Viennese take coffee seriously—if you do, too, this might be your city. Vienna is one of the top ten city matches for 25. 7% of Teleport users. ",
     "Address":"Vienna, Austria",
     "Housing":6.314000000000001,
     "Cost_of_Living":5.111,
@@ -7432,8 +7432,8 @@
        "coordinates":  [ 25.2796514,54.6871555 ]
     },
     "properties": {
-    "FIELD1":256,
     "City":"Vilnius",
+    "City_Summary":"Vilnius is an innovative city with great business freedom and affordable housing.  Offering one of the fastest public wifi upload speeds in the world and a low cost of living, the city has become an attractive business center.  Along with its modern facilities and high environmental quality,Vilniushas a rich historical background that remains an important part of the city’s identity. Vilnius is one of the top ten city matches for 3. 7% of Teleport users. ",
     "Address":"Vilnius, Lithuania",
     "Housing":8.621,
     "Cost_of_Living":7.5760000000000005,
@@ -7461,8 +7461,8 @@
        "coordinates":  [ 21.0122287,52.2296756 ]
     },
     "properties": {
-    "FIELD1":257,
     "City":"Warsaw",
+    "City_Summary":"Warsaw, a unique blend of the old and new, is comprised of 18 districts, each with their distinctive characteristics.  Warsaw's widely varied architecture reflects its tumultuous history and adds to a vibrant cultural scene - both classical and underground.  Its history, cuisine and quality of life have made Warsaw an increasingly popular destination and its reasonable cost of living adds to the charm. Warsaw is one of the top ten city matches for 10. 8% of Teleport users. ",
     "Address":"Warsaw, Poland",
     "Housing":7.8695,
     "Cost_of_Living":8.192,
@@ -7490,8 +7490,8 @@
        "coordinates":  [ -77.0368707,38.9071923 ]
     },
     "properties": {
-    "FIELD1":258,
     "City":"Washington, D.C.",
+    "City_Summary":"Washington, District of Columbia, features a wide variety of free time activities. According to Teleport's city rankings, this is a good place to live with high ratings in startups, venture capital and business freedom. Washington, D. C.  is one of the top ten city matches for 3. 4% of Teleport users. ",
     "Address":"Washington, DC, USA",
     "Housing":1.2105000000000001,
     "Cost_of_Living":3.5949999999999993,
@@ -7519,8 +7519,8 @@
        "coordinates":  [ 174.7731458,-41.2768778 ]
     },
     "properties": {
-    "FIELD1":259,
     "City":"Wellington",
+    "City_Summary":"Wellington, New Zealand, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in safety, healthcare and environmental quality. Wellington is one of the top ten city matches for 2. 8% of Teleport users. ",
     "Address":"Wellington, New Zealand",
     "Housing":5.134499999999999,
     "Cost_of_Living":5.161,
@@ -7548,8 +7548,8 @@
        "coordinates":  [ -97.13837439999999,49.895136 ]
     },
     "properties": {
-    "FIELD1":260,
     "City":"Winnipeg",
+    "City_Summary":"Winnipeg, Canada, is among the top cities with a free business environment. According to Teleport's city rankings, this is a good place to live with high ratings in housing, healthcare and taxation. ",
     "Address":"Winnipeg, MB, Canada",
     "Housing":7.552500000000001,
     "Cost_of_Living":5.882,
@@ -7577,8 +7577,8 @@
        "coordinates":  [ 17.0385376,51.1078852 ]
     },
     "properties": {
-    "FIELD1":261,
     "City":"Wroclaw",
+    "City_Summary":"Wroclaw, Poland, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. ",
     "Address":"Wrocław, Poland",
     "Housing":8.452,
     "Cost_of_Living":8.434000000000001,
@@ -7606,8 +7606,8 @@
        "coordinates":  [ 44.515209,40.1872023 ]
     },
     "properties": {
-    "FIELD1":262,
     "City":"Yerevan",
+    "City_Summary":"Yerevan, Armenia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and taxation. Yerevan is one of the top ten city matches for 1. 7% of Teleport users. ",
     "Address":"Yerevan, Armenia",
     "Housing":9.694500000000001,
     "Cost_of_Living":9.431000000000001,
@@ -7635,8 +7635,8 @@
        "coordinates":  [ 15.9819189,45.8150108 ]
     },
     "properties": {
-    "FIELD1":263,
     "City":"Zagreb",
+    "City_Summary":"Zagreb, Croatia, is characterized by reasonably priced housing. According to Teleport's city rankings, this is a good place to live with high ratings in cost of living, safety and healthcare. Zagreb is one of the top ten city matches for 1. 3% of Teleport users. ",
     "Address":"Zagreb, Croatia",
     "Housing":8.91,
     "Cost_of_Living":7.193999999999999,
@@ -7664,8 +7664,8 @@
        "coordinates":  [ 8.541694,47.3768866 ]
     },
     "properties": {
-    "FIELD1":264,
     "City":"Zurich",
+    "City_Summary":"Zurich is one of the wealthiest but also one of the most expensive cities in Europe.  It is a leader in the world's financial industry as well as an international hub for banking.  Zurich is also the center for development and scientific research with two world-class universities within its boundaries.  The city is extremely well-connected through public transport and offers an exceptionally high quality of life. Zurich is one of the top ten city matches for 13. 3% of Teleport users. ",
     "Address":"Zürich, Switzerland",
     "Housing":1.473,
     "Cost_of_Living":1,
