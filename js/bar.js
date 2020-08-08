@@ -45,7 +45,7 @@ function buildCircleBarplot1(activeIndicator) {
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 100) + ")"); // Add 100 on Y translation, cause upper bars are longer
-    d3.csv("../data/Allinclusive.csv").then(function(data) {
+    d3.csv("./data/Allinclusive.csv").then(function(data) {
 
         // console.log(data);
 
