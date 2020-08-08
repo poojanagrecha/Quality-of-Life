@@ -303,7 +303,7 @@ function RadarChart(id, data, options) {
     .attr("cy", 0)
     .merge(blobWrapper)
     .transition()
-    .duration(2000)
+    .duration(500)
     .attr("cx", function (d, i) {
       return rScale(d.value) * Math.cos(angleSlice * i - Math.PI / 2);
     })
@@ -428,27 +428,27 @@ d3.csv("data/Allinclusive.csv")
     //   d.Leisure = +d.Leisure;
     // });
 
-    // var graphScoreData = scoreData.map((dataItem) => {
-    //   return [
-    //     { axis: "Cost of Living", value: dataItem.Cost_of_Living },
-    //     { axis: "Education", value: dataItem.Education },
-    //     {
-    //       axis: "Environmental Quality",
-    //       value: dataItem.Environmental_Quality,
-    //     },
-    //     { axis: "Healthcare", value: dataItem.Healthcare },
-    //     { axis: "Housing", value: dataItem.Housing },
-    //     { axis: "Safety", value: dataItem.Safety },
-    //     { axis: "Taxation", value: dataItem.Taxation },
-    //     { axis: "Tolerance", value: dataItem.Tolerance },
-    //     { axis: "Economy", value: dataItem.Economy },
-    //     { axis: "Startups", value: dataItem.Startups },
-    //     { axis: "Outdoors", value: dataItem.Outdoors },
-    //     { axis: "Internet Access", value: dataItem.Internet_Access },
-    //     { axis: "Travel_Connectivity", value: dataItem.Travel_Connectivity },
-    //     { axis: "Leisure", value: dataItem.Leisure },
-    //   ];
-    // });
+    var graphScoreData = scoreData.map((dataItem) => {
+      return [
+        { axis: "Cost of Living", value: +dataItem.Cost_of_Living },
+        { axis: "Education", value: +dataItem.Education },
+        {
+          axis: "Environmental Quality",
+          value: +dataItem.Environmental_Quality,
+        },
+        { axis: "Healthcare", value: +dataItem.Healthcare },
+        { axis: "Housing", value: +dataItem.Housing },
+        { axis: "Safety", value: +dataItem.Safety },
+        { axis: "Taxation", value: +dataItem.Taxation },
+        { axis: "Tolerance", value: +dataItem.Tolerance },
+        { axis: "Economy", value: +dataItem.Economy },
+        { axis: "Startups", value: +dataItem.Startups },
+        { axis: "Outdoors", value: +dataItem.Outdoors },
+        { axis: "Internet Access", value: +dataItem.Internet_Access },
+        { axis: "Travel_Connectivity", value: +dataItem.Travel_Connectivity },
+        { axis: "Leisure", value: +dataItem.Leisure },
+      ];
+    });
 
     //   ////////////////////////////////////////////////////////////
     //   ////////////////// Draw the Chart //////////////////////////
@@ -456,34 +456,35 @@ d3.csv("data/Allinclusive.csv")
 
     // var color = d3.scale.ordinal().range(["#00A0B0"]);
 
-    // var radarChartOptions = {
-    //   w: width,
-    //   h: height,
-    //   margin: margin,
-    //   maxValue: 10,
-    //   levels: 5,
-    //   roundStrokes: true,
-    //   color: function () {
-    //     c = [
-    //       "lightsteelblue",
-    //       "coral",
-    //       "saddlebrown",
-    //       "mediumaquamarine",
-    //       "deeppink",
-    //       "indigo",
-    //       "blueviolet",
-    //       "darkgoldenrod",
-    //       "darkmagenta",
-    //     ];
-    //     m = c.length - 1;
-    //     x = parseInt(Math.random() * 100);
-    //     //Get a random color
-    //     return c[x % m];
-    //   },
-    // };
-    // //Call function to draw the Radar chart
-    // // [graphScoreData[0], graphScoreData[2], graphScoreData[4]]
-    // RadarChart(".radarChart", graphScoreData, radarChartOptions);
+    var radarChartOptions = {
+      w: width,
+      h: height,
+      margin: margin,
+      maxValue: 10,
+      levels: 5,
+      roundStrokes: true,
+      color: function () {
+        c = [
+          "lightsteelblue",
+          "coral",
+          "saddlebrown",
+          "mediumaquamarine",
+          "deeppink",
+          "indigo",
+          "blueviolet",
+          "darkgoldenrod",
+          "darkmagenta",
+        ];
+        m = c.length - 1;
+        x = parseInt(Math.random() * 100);
+        //Get a random color
+        return c[x % m];
+      },
+    };
+    //Call function to draw the Radar chart
+    // [graphScoreData[0], graphScoreData[2], graphScoreData[4]]
+    RadarChart(".radarChart", [graphScoreData[0]], radarChartOptions);
+    loadMetaData(scoreData[0].City);
   })
   .catch(function (error) {
     console.log(error);
