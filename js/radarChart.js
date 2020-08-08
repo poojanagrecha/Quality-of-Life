@@ -11,7 +11,7 @@ function buildHeader(activeIndicator, score) {
     $("#description-text").empty();
     $("#description-text").append(
         `<h1><b>${activeIndicator}</b></h1>
-    <h6>This is a visual representation of ${activeIndicator} scores, the city average score is ${score}/10</h6>`
+    <h6>This is a visual representation of ${activeIndicator} scores, the city's average score is ${score}/10</h6>`
     );
 }
 var margin = { top: 100, right: 100, bottom: 100, left: 100 },
@@ -494,103 +494,290 @@ function renderCitiesData(city) {
         return city === row.City;
     });
 
+    <<
+    << << < HEAD
     var graphfilteredCitiesData = [
         { axis: "Cost of Living", value: +filteredCitiesData.Cost_of_Living },
-        { axis: "Education", value: +filteredCitiesData.Education },
-        {
-            axis: "Environmental Quality",
-            value: +filteredCitiesData.Environmental_Quality,
-        },
-        { axis: "Healthcare", value: +filteredCitiesData.Healthcare },
-        { axis: "Housing", value: +filteredCitiesData.Housing },
-        { axis: "Safety", value: +filteredCitiesData.Safety },
-        { axis: "Taxation", value: +filteredCitiesData.Taxation },
-        { axis: "Tolerance", value: +filteredCitiesData.Tolerance },
-        { axis: "Economy", value: +filteredCitiesData.Economy },
-        { axis: "Startups", value: +filteredCitiesData.Startups },
-        { axis: "Outdoors", value: +filteredCitiesData.Outdoors },
-        { axis: "Internet Access", value: +filteredCitiesData.Internet_Access },
-        {
-            axis: "Travel_Connectivity",
-            value: +filteredCitiesData.Travel_Connectivity,
-        },
-        { axis: "Leisure", value: +filteredCitiesData.Leisure },
-    ];
+        { axis: "Education", value: +filteredCitiesData.Education }, ===
+        === =
+        //Set up the small tooltip for when you hover over a circle
+        var tooltip = g.append("text").attr("class", "tooltip").style("opacity", 0);
 
-    var avgScore =
-        graphfilteredCitiesData.reduce((acc, item) => (acc += item.value), 0) /
-        graphfilteredCitiesData.length;
+        /////////////////////////////////////////////////////////
+        /////////////////// Helper Function /////////////////////
+        /////////////////////////////////////////////////////////
 
-    avgScore = Math.round(avgScore * 100) / 100;
+        //Taken from http://bl.ocks.org/mbostock/7555321
+        //Wraps SVG text
+        function wrap(text, width) {
+            text.each(function() {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.4, // ems
+                    y = text.attr("y"),
+                    x = text.attr("x"),
+                    dy = parseFloat(text.attr("dy")),
+                    tspan = text
+                    .text(null)
+                    .append("tspan")
+                    .attr("x", x)
+                    .attr("y", y)
+                    .attr("dy", dy + "em");
 
-    //   ////////////////////////////////////////////////////////////
-    //   ////////////////// Draw the Chart //////////////////////////
-    //   ////////////////////////////////////////////////////////////
+                while ((word = words.pop())) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        tspan = text
+                            .append("tspan")
+                            .attr("x", x)
+                            .attr("y", y)
+                            .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                            .text(word);
+                    }
+                }
+            });
+        }
+    }
+    var csvData;
+    d3.csv("../data/Allinclusive.csv")
+        .then(function(scoreData) {
+                csvData = scoreData;
+                // scoreData.forEach(function (d) {
+                //   d.Cost_of_Living = +d.Cost_of_Living;
+                //   d.Economy = +d.Economy;
+                //   d.Education = +d.Education;
+                //   d.Environmental_Quality = +d.Environmental_Quality;
+                //   d.Healthcare = +d.Healthcare;
+                //   d.Housing = +d.Housing;
+                //   d.Internet_Access = +d.Internet_Access;
+                //   d.Outdoors = +d.Outdoors;
+                //   d.Safety = +d.Safety;
+                //   d.Startups = +d.Startups;
+                //   d.Taxation = +d.Taxation;
+                //   d.Tolerance = +d.Tolerance;
+                //   d.Travel_Connectivity = +d.Travel_Connectivity;
+                //   d.Leisure = +d.Leisure;
+                // });
 
-    // var color = d3.scale.ordinal().category20();
+                var graphScoreData = scoreData.map((dataItem) => {
+                        return [{
+                                axis: "Cost of Living",
+                                value: +dataItem.Cost_of_Living,
+                                name: dataItem.City,
+                            },
+                            { axis: "Education", value: +dataItem.Education }, >>>
+                            >>> > 6 dfcf72c4336f4fa4a7e63844453c85dc957d987 {
+                                axis: "Environmental Quality",
+                                value: +filteredCitiesData.Environmental_Quality,
+                            },
+                            { axis: "Healthcare", value: +filteredCitiesData.Healthcare },
+                            { axis: "Housing", value: +filteredCitiesData.Housing },
+                            { axis: "Safety", value: +filteredCitiesData.Safety },
+                            { axis: "Taxation", value: +filteredCitiesData.Taxation },
+                            { axis: "Tolerance", value: +filteredCitiesData.Tolerance },
+                            { axis: "Economy", value: +filteredCitiesData.Economy },
+                            { axis: "Startups", value: +filteredCitiesData.Startups },
+                            { axis: "Outdoors", value: +filteredCitiesData.Outdoors },
+                            { axis: "Internet Access", value: +filteredCitiesData.Internet_Access },
+                            {
+                                axis: "Travel_Connectivity",
+                                value: +filteredCitiesData.Travel_Connectivity,
+                            },
+                            { axis: "Leisure", value: +filteredCitiesData.Leisure },
+                        ];
 
-    var radarChartOptions = {
-        w: width,
-        h: height,
-        margin: margin,
-        maxValue: 10,
-        levels: 5,
-        roundStrokes: true,
-        color: function() {
-            c = [
-                "lightsteelblue",
-                "coral",
-                "saddlebrown",
-                "mediumaquamarine",
-                "deeppink",
-                "indigo",
-                "blueviolet",
-                "darkgoldenrod",
-                "darkmagenta",
-            ];
-            m = c.length - 1;
-            x = parseInt(Math.random() * 100);
-            //Get a random color
-            return c[x % m];
-        },
-    };
-    RadarChart(".radarChart", [graphfilteredCitiesData], radarChartOptions);
-    buildHeader(filteredCitiesData.City, avgScore);
-}
+                        var avgScore =
+                            graphfilteredCitiesData.reduce((acc, item) => (acc += item.value), 0) /
+                            graphfilteredCitiesData.length;
 
-function getData() {
-    var selector = d3.select("#selDataset");
+                        avgScore = Math.round(avgScore * 100) / 100;
 
-    d3.csv("../data/Allinclusive.csv").then(function(data) {
-        data.forEach(function(sample) {
-            var cityName = sample.City;
-            selector.append("option").text(cityName).property("value", cityName);
-        });
-    });
-}
+                        const sortedAverages = graphScoreData
+                            .map((cityData) => {
+                                return {
+                                    name: cityData[0].name,
+                                    averageScore: cityData.reduce((acc, item) => (acc += item.value), 0) /
+                                        cityData.length,
+                                    ...cityData,
+                                };
+                            })
+                            .sort((a, b) => b.averageScore - a.averageScore)
+                            .slice(0, 20)
+                            .map((cityData) => {
+                                return {
+                                    name: cityData.name,
+                                    value: cityData.averageScore,
+                                };
+                            });
+                        console.log(sortedAverages);
+                        //   ////////////////////////////////////////////////////////////
+                        //   ////////////////// Draw the Chart //////////////////////////
+                        //   ////////////////////////////////////////////////////////////
 
-getData();
+                        // var color = d3.scale.ordinal().category20();
 
-function loadMetaData(sample) {
-    d3.csv("../data/Allinclusive.csv").then((data) => {
-        var result = data.find((row) => row.City === sample);
+                        var radarChartOptions = {
+                            w: width,
+                            h: height,
+                            margin: margin,
+                            maxValue: 10,
+                            levels: 5,
+                            roundStrokes: true,
+                            color: function() {
+                                c = [
+                                    "lightsteelblue",
+                                    "coral",
+                                    "saddlebrown",
+                                    "mediumaquamarine",
+                                    "deeppink",
+                                    "indigo",
+                                    "blueviolet",
+                                    "darkgoldenrod",
+                                    "darkmagenta",
+                                ];
+                                m = c.length - 1;
+                                x = parseInt(Math.random() * 100);
+                                //Get a random color
+                                return c[x % m];
+                            },
+                        }; <<
+                        << << < HEAD
+                        RadarChart(".radarChart", [graphfilteredCitiesData], radarChartOptions);
+                        buildHeader(filteredCitiesData.City, avgScore); ===
+                        === =
+                        //Call function to draw the Radar chart
+                        RadarChart(".radarChart", [graphScoreData[0]], radarChartOptions);
+                        loadMetaData(scoreData[0].City);
+                        buildHeader(scoreData[0].City);
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    });
 
-        var PANEL = d3.select(".card-body");
+                function sortAverageCityData() {
+                    const sortedAverages = csvData
+                        .map((cityData) => {
+                            return {
+                                averageScore: cityData.reduce((acc, item) => (acc += item.value), 0) /
+                                    cityData.length,
+                                ...cityData,
+                            };
+                        })
+                        .sort((a, b) => a.averageScore - b.averageScore);
+                    console.log(sortedAverages);
+                }
 
-        PANEL.html("");
+                function renderCitiesData(city) {
+                    let filteredCitiesData = csvData.find((row) => {
+                        return city === row.City;
+                    });
 
-        Object.entries(result).forEach(([key, value]) => {
-            let renderValue = value;
-            if (!isNaN(value)) {
-                renderValue = Math.round(value * 100) / 100;
-            }
-            PANEL.append("div").text(`${key}: ${renderValue}`);
-        });
-    });
-}
+                    var graphfilteredCitiesData = [
+                        { axis: "Cost of Living", value: +filteredCitiesData.Cost_of_Living },
+                        { axis: "Education", value: +filteredCitiesData.Education },
+                        {
+                            axis: "Environmental Quality",
+                            value: +filteredCitiesData.Environmental_Quality,
+                        },
+                        { axis: "Healthcare", value: +filteredCitiesData.Healthcare },
+                        { axis: "Housing", value: +filteredCitiesData.Housing },
+                        { axis: "Safety", value: +filteredCitiesData.Safety },
+                        { axis: "Taxation", value: +filteredCitiesData.Taxation },
+                        { axis: "Tolerance", value: +filteredCitiesData.Tolerance },
+                        { axis: "Economy", value: +filteredCitiesData.Economy },
+                        { axis: "Startups", value: +filteredCitiesData.Startups },
+                        { axis: "Outdoors", value: +filteredCitiesData.Outdoors },
+                        { axis: "Internet Access", value: +filteredCitiesData.Internet_Access },
+                        {
+                            axis: "Travel_Connectivity",
+                            value: +filteredCitiesData.Travel_Connectivity,
+                        },
+                        { axis: "Leisure", value: +filteredCitiesData.Leisure },
+                    ];
 
-function optionChanged(sample) {
-    // Fetch new data each time a new sample is selected
-    renderCitiesData(sample);
-    loadMetaData(sample);
-}
+                    var avgScore =
+                        graphfilteredCitiesData.reduce((acc, item) => (acc += item.value), 0) /
+                        graphfilteredCitiesData.length;
+
+                    avgScore = Math.round(avgScore * 100) / 100;
+
+                    //   ////////////////////////////////////////////////////////////
+                    //   ////////////////// Draw the Chart //////////////////////////
+                    //   ////////////////////////////////////////////////////////////
+
+                    // var color = d3.scale.ordinal().category20();
+
+                    var radarChartOptions = {
+                        w: width,
+                        h: height,
+                        margin: margin,
+                        maxValue: 10,
+                        levels: 5,
+                        roundStrokes: true,
+                        color: function() {
+                            c = [
+                                "lightsteelblue",
+                                "coral",
+                                "saddlebrown",
+                                "mediumaquamarine",
+                                "deeppink",
+                                "indigo",
+                                "blueviolet",
+                                "darkgoldenrod",
+                                "darkmagenta",
+                            ];
+                            m = c.length - 1;
+                            x = parseInt(Math.random() * 100);
+                            //Get a random color
+                            return c[x % m];
+                        },
+                    };
+                    // console.log(filteredCitiesData);
+                    RadarChart(".radarChart", [graphfilteredCitiesData], radarChartOptions);
+                    buildHeader(filteredCitiesData.City, avgScore); >>>
+                    >>> > 6 dfcf72c4336f4fa4a7e63844453c85dc957d987
+                }
+
+                function getData() {
+                    var selector = d3.select("#selDataset");
+
+                    d3.csv("../data/Allinclusive.csv").then(function(data) {
+                        data.forEach(function(sample) {
+                            var cityName = sample.City;
+                            selector.append("option").text(cityName).property("value", cityName);
+                        });
+                    });
+                }
+
+                getData();
+
+                function loadMetaData(sample) {
+                    d3.csv("../data/Allinclusive.csv").then((data) => {
+                        var result = data.find((row) => row.City === sample);
+
+                        var PANEL = d3.select(".card-body");
+
+                        PANEL.html("");
+
+                        Object.entries(result).forEach(([key, value]) => {
+                            let renderValue = value;
+                            if (!isNaN(value)) {
+                                renderValue = Math.round(value * 100) / 100;
+                            }
+                            PANEL.append("div").text(`${key}: ${renderValue}`);
+                        });
+                    });
+                }
+
+                function optionChanged(sample) {
+                    // Fetch new data each time a new sample is selected
+                    renderCitiesData(sample);
+                    loadMetaData(sample);
+                }

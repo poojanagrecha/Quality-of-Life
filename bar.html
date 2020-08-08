@@ -60,48 +60,64 @@
             </div>
         </nav>
     </div>
-    <div id="header" class="card text-center">
-        <h1 style="text-align: center;">
-            Housing Scores Across Major U.S. Cities
-        </h1>
-    </div>
-
-    <div class="row card content-wrap">
-        <div class="col-md-12 dropdown">
-            <br>
-            <select id="selIndicator1">
-            <option class="dropdown-item" value="Business_Freedom"
-              >Business Freedom</option
-            >
-            <option class="dropdown-item">Commute</option>
-            <option class="dropdown-item" value="Cost_of_Living"
-              >Cost of Living</option
-            >
-            <option class="dropdown-item">Economy</option>
-            <option class="dropdown-item">Education</option>
-            <option class="dropdown-item" value="Environmental_Quality"
-              >Environmental Quality</option
-            >
-            <option class="dropdown-item">Healthcare</option>
-            <option class="dropdown-item">Housing</option>
-            <option class="dropdown-item" value="Internet_Access"
-              >Internet Access</option
-            >
-            <option class="dropdown-item">Leisure</option>
-            <option class="dropdown-item">Outdoors</option>
-            <option class="dropdown-item">Safety</option>
-            <option class="dropdown-item">Startups</option>
-            <option class="dropdown-item">Taxation</option>
-            <option class="dropdown-item">Tolerance</option>
-            <option class="dropdown-item" value="Travel_Connectivity"
-              >Travel Connectivity</option
-            >
-            <option class="dropdown-item" value="Venture_Capital"
-              >Venture Capital</option
-            >
-          </select>
+    <div class="container-fluid">
+        <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
+            id="header">
+            <div class="container">
+                <h1 class="display-4 text-center"><b>Housing Scores Across Selected Cities</b></h1>
+                <p class="lead"></p>
+            </div>
         </div>
-        <!-- <div class="col-md-6 dropdown">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <div class="form-group">
+                        <label for="exampleSelect1">Choose Indicator</label>
+                        <br>
+                        <select id="selIndicator1">
+                            <option class="dropdown-item" value="Business_Freedom"
+                        >Business Freedom</option
+                        >
+                        <option class="dropdown-item">Commute</option>
+                        <option class="dropdown-item" value="Cost_of_Living"
+                        >Cost of Living</option
+                        >
+                        <option class="dropdown-item">Economy</option>
+                        <option class="dropdown-item">Education</option>
+                        <option class="dropdown-item" value="Environmental_Quality"
+                        >Environmental Quality</option
+                        >
+                        <option class="dropdown-item">Healthcare</option>
+                        <option class="dropdown-item">Housing</option>
+                        <option class="dropdown-item" value="Internet_Access"
+                        >Internet Access</option
+                        >
+                        <option class="dropdown-item">Leisure</option>
+                        <option class="dropdown-item">Outdoors</option>
+                        <option class="dropdown-item">Safety</option>
+                        <option class="dropdown-item">Startups</option>
+                        <option class="dropdown-item">Taxation</option>
+                        <option class="dropdown-item">Tolerance</option>
+                        <option class="dropdown-item" value="Travel_Connectivity"
+                        >Travel Connectivity</option
+                        >
+                        <option class="dropdown-item" value="Venture_Capital"
+                        >Venture Capital</option
+                        >
+                    </select>
+
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!-- <br> -->
+
+    </div>
+    </div>
+    </div>
+    <!-- <div class="col-md-6 dropdown">
             <select id="selIndicator2">
             <option class="dropdown-item" value="Business_Freedom"
               >Business Freedom</option
@@ -134,11 +150,14 @@
             >
           </select>
         </div>
+        
     </div> -->
-        <div class="row">
-            <div class="col-md-12" id="my_dataviz1"></div>
-            <!-- <div class="col-md-6" id="my_dataviz2"></div> -->
-        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="my_dataviz1"></div>
+        <!-- <div class="col-md-6" id="my_dataviz2"></div> -->
+    </div>
+
     </div>
 </body>
 
