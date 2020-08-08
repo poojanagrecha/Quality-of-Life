@@ -8,7 +8,6 @@
     <title>Quality of Life</title>
     <!-- Function for radial charts -->
     <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
-
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Hello JQuery -->
@@ -23,32 +22,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Bootswtach -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css" integrity="sha384-chJtTd1EMa6hQI40eyJWF6829eEk4oIe7b3nNtUni7VxA3uHc/uIM/8ppyjrggfV" crossorigin="anonymous">
 
+    <!-- Bootswatch CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
 
 
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid navbar-dark bg-dark">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Teleport API</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="google.com" role="button" aria-haspopup="true" aria-expanded="false">Charts by City</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Charts by City</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="radarChart.html">Radar Chart</a>
-                            <a class="dropdown-item" href="">Gauge Charts</a>
+                            <a class="dropdown-item" href="index1.html">Gauge Charts</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -59,12 +57,29 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Data and Methodology</a>
+                        <a class="nav-link" href="data.html">Data and Methodology</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <h1>Quality of Life Data Exploration</h1>
+        <h4>Welcome to our Project page!</h4>
+        <p>We've taken data from the Teleport API (view it on the Data and Methodology page) to compare 256 cities and explore trends in quality of life.</p>
+        <p>Our site is divided into three main sections: Charts by Indicator, Charts by City, and Data/Methodology.</p>
+        <p>Charts by Indicator contains two sets of charts that visualize the indicator data we pulled and the user can select which city they'd like to look at.</p>
+        <p>Charts by City contains two sets of charts that provide a birds eye view of the scores for all cities. The user can select which indicator they'd like to look at.</p>
+        <p>Data and Methodology contains the data we pulled from the Teleport API. The user can download the data and explore it themselves.</p>
+        <hr>
+        <h4>Key Takeaways From Data:</h4>
+        <ul>
+            <li>The United States isn't the absolute best place to live - none of the top 20 cities in our data are situated in the US.</li>
+            <li>The top cities to live in include Singapore, Munich, and Toronto.</li>
+            <li>In general, the scores tend to favor cities in "developed" countries.</li>
+        </ul>
+    </div>
 </body>
 
 </html>
