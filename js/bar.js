@@ -47,14 +47,15 @@ function buildCircleBarplot1(activeIndicator) {
         .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 100) + ")"); // Add 100 on Y translation, cause upper bars are longer
     d3.csv("../data/Allinclusive.csv").then(function(data) {
 
-        console.log(data);
+        // console.log(data);
 
         // let housing = data.map(d => d.Housing);
         // console.log(housing);
+        data = data.filter(function(d) { return parseFloat(d[activeIndicator]) > 0 })
 
         data.sort(function(a, b) { return d3.ascending(parseFloat(a[activeIndicator]), parseFloat(b[activeIndicator])); });
 
-        console.log(activeIndicator);
+        // console.log(activeIndicator);
 
         // X scale
         var x = d3.scaleBand()
@@ -91,7 +92,7 @@ function buildCircleBarplot1(activeIndicator) {
 
         barGroup.selectAll("path")
             .transition()
-            .duration(1000)
+            .duration(2500)
             .attr("d", d3.arc()
                 .innerRadius(innerRadius)
                 .outerRadius(function(d) { return y(d[activeIndicator]); })
@@ -131,8 +132,8 @@ function buildCircleBarplot1(activeIndicator) {
 
         circleBars.on('mouseover', function(data) {
                 toolTip.show(data, this);
-                toolTip.style("top", (height / 1.28) + "px")
-                    .style("left", (width - (width / 1.75)) + "px")
+                toolTip.style("top", (height / 1.16) + "px")
+                    .style("left", (width - (width / 1.7)) + "px")
                 d3.select(this)
                     .transition()
                     .duration(1000)
