@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Data Table</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
@@ -21,15 +21,8 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- D3 Tip for the Tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-    <!-- Our Javascript -->
-    <script src="js/app.js"></script>
-    <!-- Bootstrap -->
-
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Bootswtach -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css" integrity="sha384-chJtTd1EMa6hQI40eyJWF6829eEk4oIe7b3nNtUni7VxA3uHc/uIM/8ppyjrggfV" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css"> -->
 
 
 </head>
@@ -72,16 +65,18 @@
             <p class="lead">Teleport builds software to move you to the best place to live and work. Explore the best cities based on your personal preferences, and we’ll lend you a hand with preparing and executing the move. Choose where you would like to live based
                 on the most important factors in your life. Teleport API consists of scores for Housing, Cost of Living, Economy, etc., to find where you would be happiest in life.</p>
             <hr class="my-4">
-            <p>Explore below for all scores...</p>
+            <p>Click button to explore all data...</p>
             <p class="lead">
             </p>
         </div>
-        <div class="container">
-            <div class="table-responsive">
-                <div align="center">
-                    <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
+        <div class="container card bg-dark">
+            <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
+            <div class="card table-responsive">
+                <div>
+
                     <div id="score_table">
                     </div>
+                </div>
 </body>
 
 </html>
