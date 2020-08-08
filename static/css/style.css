@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.ttable {
+    text-align: center;
+}
+
 #mapid,
 body,
 html {
@@ -21,4 +25,18 @@ html {
     float: left;
     margin-right: 8px;
     opacity: 1;
+}
+
+
+/* For index page */
+
+.hero {
+    position: relative;
+    height: 400px;
+    margin: 0;
+    background: black;
+    background-image: url("/static/images/Canada_land.jpg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
 }

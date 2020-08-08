@@ -45,16 +45,23 @@
                 </div>
             </nav>
         </div>
+        <div class="row">
+            <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(static/images/qualityoflife.jpg);   background-size: cover;" id="header">
+                <div class="container">
+                    <h1 class="display-4 text-center"><b>Quality of Life in Cities around the World</b></h1>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h3 class="text-center">Choose a city from the dropdown to explore the data.</h3>
+                <div class="container" id="description-text">
+                    <h1><b></b></h1>
+                    <h6></h6>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
-
-                <div class="col-md-12 jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www1.nyc.gov/assets/internationalbusiness/images/content/pages/interiorpage-qualityoflife.jpg);   background-size: cover;"
-                    id="header">
-                    <div class="container">
-                        <h1 class="display-4 text-center"><b>Quality of Life in Cities around the World</b></h1>
-                        <p class="lead"></p>
-                    </div>
-                </div>
                 <div class="col-md-12">
                     <div class="container" id="description-text">
                         <h1><b></b></h1>
@@ -65,11 +72,10 @@
             <hr>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="well">
+                    <div>
                         <div class="form-group">
                             <label for="exampleSelect1">Choose city</label>
                             <select class="form-control" id="selDataset" onchange="{optionChanged(this.value)}">
-          
                             </select>
                         </div>
                         <hr>
