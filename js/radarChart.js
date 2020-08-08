@@ -303,7 +303,7 @@ function RadarChart(id, data, options) {
     .attr("cy", 0)
     .merge(blobWrapper)
     .transition()
-    .duration(500)
+    .duration(2000)
     .attr("cx", function (d, i) {
       return rScale(d.value) * Math.cos(angleSlice * i - Math.PI / 2);
     })
@@ -407,7 +407,7 @@ function RadarChart(id, data, options) {
   }
 }
 var csvData;
-d3.csv("data/Allinclusive.csv")
+d3.csv("../data/Allinclusive.csv")
   .then(function (scoreData) {
     csvData = scoreData;
 
@@ -482,7 +482,6 @@ d3.csv("data/Allinclusive.csv")
       },
     };
     //Call function to draw the Radar chart
-    // [graphScoreData[0], graphScoreData[2], graphScoreData[4]]
     RadarChart(".radarChart", [graphScoreData[0]], radarChartOptions);
     loadMetaData(scoreData[0].City);
   })
@@ -562,7 +561,7 @@ function renderCitiesData(city) {
 function getData() {
   var selector = d3.select("#selDataset");
 
-  d3.csv("data/Allinclusive.csv").then(function (data) {
+  d3.csv("../data/Allinclusive.csv").then(function (data) {
     data.forEach(function (sample) {
       var cityName = sample.City;
       selector.append("option").text(cityName).property("value", cityName);
@@ -573,7 +572,7 @@ function getData() {
 getData();
 
 function loadMetaData(sample) {
-  d3.csv("data/Allinclusive.csv").then((data) => {
+  d3.csv("../data/Allinclusive.csv").then((data) => {
     var result = data.find((row) => row.City === sample);
 
     var PANEL = d3.select(".card-body");
