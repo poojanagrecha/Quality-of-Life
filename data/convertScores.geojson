@@ -1,0 +1,453 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.58013,47.32926 ]
+    },
+    "properties": {
+    "FIELD1":0,
+    "City":"Gigi Harbor",
+    "Housing":2.291,
+    "Cost_of_Living":3.79,
+    "Startups":8.367,
+    "Venture_Capital":7.551000000000001,
+    "Travel_Connectivity":2.8845,
+    "Commute":4.523750000000001,
+    "Business_Freedom":8.671,
+    "Safety":5.6365,
+    "Healthcare":6.309666666666666,
+    "Education":5.7145,
+    "Environmental_Quality":7.560250000000001,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":4.940499999999999,
+    "Leisure":8.1155,
+    "Tolerance":8.0895,
+    "Outdoors":7.2094999999999985
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.14168,32.56319 ]
+    },
+    "properties": {
+    "FIELD1":1,
+    "City":"Dallas",
+    "Housing":5.259000000000001,
+    "Cost_of_Living":6.090999999999999,
+    "Startups":7.939500000000001,
+    "Venture_Capital":4.9159999999999995,
+    "Travel_Connectivity":4.746499999999999,
+    "Commute":4.4704999999999995,
+    "Business_Freedom":8.671,
+    "Safety":4.3389999999999995,
+    "Healthcare":6.086666666666666,
+    "Education":4.284,
+    "Environmental_Quality":6.693,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":6.4609999999999985,
+    "Leisure":7.1685,
+    "Tolerance":5.294,
+    "Outdoors":4.501999999999999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.74306,30.26715 ]
+    },
+    "properties": {
+    "FIELD1":2,
+    "City":"Austin",
+    "Housing":4.3345,
+    "Cost_of_Living":5.3549999999999995,
+    "Startups":9.236,
+    "Venture_Capital":6.939000000000001,
+    "Travel_Connectivity":1.8515000000000004,
+    "Commute":4.3305,
+    "Business_Freedom":8.671,
+    "Safety":5.069,
+    "Healthcare":6.281666666666666,
+    "Education":5.315000000000001,
+    "Environmental_Quality":7.03075,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":9.049,
+    "Leisure":6.6979999999999995,
+    "Tolerance":6.7895,
+    "Outdoors":3.9090000000000003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.33062,28.50278 ]
+    },
+    "properties": {
+    "FIELD1":3,
+    "City":"Orlando",
+    "Housing":5.778499999999999,
+    "Cost_of_Living":5.284,
+    "Startups":6.5975,
+    "Venture_Capital":2.464,
+    "Travel_Connectivity":3.7734999999999994,
+    "Commute":4.33875,
+    "Business_Freedom":8.671,
+    "Safety":4.134,
+    "Healthcare":5.9673333333333325,
+    "Education":3.6245,
+    "Environmental_Quality":6.676,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":4.886,
+    "Leisure":5.9295,
+    "Tolerance":5.784000000000002,
+    "Outdoors":4.492999999999999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.41942,37.77493 ]
+    },
+    "properties": {
+    "FIELD1":4,
+    "City":"San Francisco Bay Area",
+    "Housing":1,
+    "Cost_of_Living":2.618,
+    "Startups":10,
+    "Venture_Capital":10,
+    "Travel_Connectivity":3.6545000000000005,
+    "Commute":4.687250000000001,
+    "Business_Freedom":8.671,
+    "Safety":5.7155000000000005,
+    "Healthcare":6.448999999999999,
+    "Education":8.6245,
+    "Environmental_Quality":6.4815000000000005,
+    "Economy":6.5145,
+    "Taxation":4.488,
+    "Internet_Access":5.605500000000001,
+    "Leisure":9.407,
+    "Tolerance":8.012500000000001,
+    "Outdoors":7.014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.80667,32.78306 ]
+    },
+    "properties": {
+    "FIELD1":5,
+    "City":"Dallas",
+    "Housing":5.259000000000001,
+    "Cost_of_Living":6.090999999999999,
+    "Startups":7.939500000000001,
+    "Venture_Capital":4.9159999999999995,
+    "Travel_Connectivity":4.746499999999999,
+    "Commute":4.4704999999999995,
+    "Business_Freedom":8.671,
+    "Safety":4.3389999999999995,
+    "Healthcare":6.086666666666666,
+    "Education":4.284,
+    "Environmental_Quality":6.693,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":6.4609999999999985,
+    "Leisure":7.1685,
+    "Tolerance":5.294,
+    "Outdoors":4.501999999999999
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.78842,27.90979 ]
+    },
+    "properties": {
+    "FIELD1":6,
+    "City":"Tampa Bay Area",
+    "Housing":5.696,
+    "Cost_of_Living":5.253,
+    "Startups":6.3469999999999995,
+    "Venture_Capital":3.7780000000000005,
+    "Travel_Connectivity":2.9055000000000004,
+    "Commute":1.40075,
+    "Business_Freedom":8.671,
+    "Safety":4.706499999999999,
+    "Healthcare":6.572999999999999,
+    "Education":4.2805,
+    "Environmental_Quality":7.37875,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":7.195,
+    "Leisure":6.433999999999999,
+    "Tolerance":5.360000000000001,
+    "Outdoors":5.497
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00597,40.71427 ]
+    },
+    "properties": {
+    "FIELD1":7,
+    "City":"New York",
+    "Housing":1,
+    "Cost_of_Living":2.342,
+    "Startups":10,
+    "Venture_Capital":10,
+    "Travel_Connectivity":6.675,
+    "Commute":5.5192499999999995,
+    "Business_Freedom":8.671,
+    "Safety":7.022,
+    "Healthcare":6.105333333333332,
+    "Education":8.0935,
+    "Environmental_Quality":5.233749999999999,
+    "Economy":6.5145,
+    "Taxation":3.9205,
+    "Internet_Access":7.0985,
+    "Leisure":10,
+    "Tolerance":6.7125,
+    "Outdoors":5.7475
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.24368,34.05223 ]
+    },
+    "properties": {
+    "FIELD1":8,
+    "City":"Los Angeles",
+    "Housing":1.5274999999999999,
+    "Cost_of_Living":4.556000000000001,
+    "Startups":10,
+    "Venture_Capital":10,
+    "Travel_Connectivity":3.9585000000000004,
+    "Commute":3.6770000000000005,
+    "Business_Freedom":8.574666666666667,
+    "Safety":5.705,
+    "Healthcare":6.027333333333332,
+    "Education":8.6245,
+    "Environmental_Quality":4.7315000000000005,
+    "Economy":6.5145,
+    "Taxation":4.7675,
+    "Internet_Access":5.496500000000001,
+    "Leisure":9.196,
+    "Tolerance":6.959999999999999,
+    "Outdoors":6.747
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.24368,34.05223 ]
+    },
+    "properties": {
+    "FIELD1":9,
+    "City":"Los Angeles",
+    "Housing":1.5274999999999999,
+    "Cost_of_Living":4.556000000000001,
+    "Startups":10,
+    "Venture_Capital":10,
+    "Travel_Connectivity":3.9585000000000004,
+    "Commute":3.6770000000000005,
+    "Business_Freedom":8.574666666666667,
+    "Safety":5.705,
+    "Healthcare":6.027333333333332,
+    "Education":8.6245,
+    "Environmental_Quality":4.7315000000000005,
+    "Economy":6.5145,
+    "Taxation":4.7675,
+    "Internet_Access":5.496500000000001,
+    "Leisure":9.196,
+    "Tolerance":6.959999999999999,
+    "Outdoors":6.747
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.49363,29.42412 ]
+    },
+    "properties": {
+    "FIELD1":10,
+    "City":"San Antonio",
+    "Housing":6.402000000000001,
+    "Cost_of_Living":6.683,
+    "Startups":5.356,
+    "Venture_Capital":3.53,
+    "Travel_Connectivity":1.6815000000000002,
+    "Commute":4.9647499999999996,
+    "Business_Freedom":8.671,
+    "Safety":4.2165,
+    "Healthcare":6.3069999999999995,
+    "Education":4.151999999999999,
+    "Environmental_Quality":6.201499999999999,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":8.0745,
+    "Leisure":6.6955,
+    "Tolerance":6.254,
+    "Outdoors":3.4185000000000003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.15726,32.71533 ]
+    },
+    "properties": {
+    "FIELD1":11,
+    "City":"San Diego",
+    "Housing":2.9335,
+    "Cost_of_Living":5.156000000000001,
+    "Startups":8.3505,
+    "Venture_Capital":8.595,
+    "Travel_Connectivity":2.6220000000000003,
+    "Commute":4.40975,
+    "Business_Freedom":8.671,
+    "Safety":6.933,
+    "Healthcare":6.519666666666666,
+    "Education":5.4575,
+    "Environmental_Quality":7.26725,
+    "Economy":6.5145,
+    "Taxation":4.488,
+    "Internet_Access":5.999,
+    "Leisure":8.21,
+    "Tolerance":8.5395,
+    "Outdoors":6.396000000000002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.33207,47.60621 ]
+    },
+    "properties": {
+    "FIELD1":12,
+    "City":"Seattle",
+    "Housing":2.291,
+    "Cost_of_Living":3.79,
+    "Startups":8.367,
+    "Venture_Capital":7.551000000000001,
+    "Travel_Connectivity":2.8845,
+    "Commute":4.523750000000001,
+    "Business_Freedom":8.671,
+    "Safety":5.6365,
+    "Healthcare":6.309666666666666,
+    "Education":5.7145,
+    "Environmental_Quality":7.560250000000001,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":4.940499999999999,
+    "Leisure":8.1155,
+    "Tolerance":8.0895,
+    "Outdoors":7.2094999999999985
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.38798,33.749 ]
+    },
+    "properties": {
+    "FIELD1":13,
+    "City":"Atlanta",
+    "Housing":4.9755,
+    "Cost_of_Living":5.241,
+    "Startups":8.835,
+    "Venture_Capital":7.2570000000000014,
+    "Travel_Connectivity":5.2915,
+    "Commute":3.8977500000000003,
+    "Business_Freedom":8.671,
+    "Safety":2.6725,
+    "Healthcare":6.0233333333333325,
+    "Education":6.456999999999999,
+    "Environmental_Quality":5.817749999999999,
+    "Economy":6.5145,
+    "Taxation":4.204,
+    "Internet_Access":6.4805,
+    "Leisure":7.765499999999999,
+    "Tolerance":4.062,
+    "Outdoors":5.0095
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.57857,39.09973 ]
+    },
+    "properties": {
+    "FIELD1":14,
+    "City":"Kansas City",
+    "Housing":6.7075,
+    "Cost_of_Living":5.844,
+    "Startups":2.793999999999999,
+    "Venture_Capital":3.5380000000000007,
+    "Travel_Connectivity":1.8689999999999998,
+    "Commute":1.9725000000000004,
+    "Business_Freedom":8.671,
+    "Safety":4.422500000000001,
+    "Healthcare":6.4496666666666655,
+    "Education":3.6245,
+    "Environmental_Quality":7.9765,
+    "Economy":6.5145,
+    "Taxation":4.062,
+    "Internet_Access":8.188500000000001,
+    "Leisure":6.674500000000001,
+    "Tolerance":5.0205,
+    "Outdoors":4.161500000000001
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.36327,29.76328 ]
+    },
+    "properties": {
+    "FIELD1":15,
+    "City":"Houston",
+    "Housing":5.224500000000001,
+    "Cost_of_Living":6.162,
+    "Startups":7.9345,
+    "Venture_Capital":4.474,
+    "Travel_Connectivity":4.338500000000001,
+    "Commute":4.03075,
+    "Business_Freedom":8.671,
+    "Safety":3.1289999999999996,
+    "Healthcare":6.379,
+    "Education":4.928,
+    "Environmental_Quality":5.304500000000001,
+    "Economy":6.5145,
+    "Taxation":4.772,
+    "Internet_Access":6.248499999999999,
+    "Leisure":7.144,
+    "Tolerance":5.34,
+    "Outdoors":5.385999999999999
+    }
+  }
+]
+}
