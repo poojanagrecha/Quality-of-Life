@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
-    <title>Quality of Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guage Charts</title>
     <!-- Function for radial charts -->
     <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
     <!-- <link rel="stylesheet" href="styles.css"> -->
@@ -19,50 +19,46 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
     <!-- Our Javascript -->
     <script src="js/app.js"></script>
-    <!-- Bootstrap
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-
+    <!-- Bootstrap JS-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Bootswtach -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css" integrity="sha384-chJtTd1EMa6hQI40eyJWF6829eEk4oIe7b3nNtUni7VxA3uHc/uIM/8ppyjrggfV" crossorigin="anonymous">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/pulse/bootstrap.min.css" integrity="sha384-t87SWLASAVDfD3SOypT7WDQZv9X6r0mq1lMEc6m1/+tAVfCXosegm1BvaIiQm3zB" crossorigin="anonymous">
 
 
 
 </head>
 
 <body>
-    <div class="container-fluid" id="tko">
+    <div class="container-fluid navbar-dark bg-dark">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Teleport API</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="google.com" role="button" aria-haspopup="true" aria-expanded="false">Charts by City</a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Charts by City</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">Radar Chart</a>
+                            <a class="dropdown-item" href="radarChart.html">Radar Chart</a>
                             <a class="dropdown-item" href="index1.html">Gauge Charts</a>
                         </div>
                     </li>
-                    <li class="nav-item active dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Charts by Indicator</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="bar.html">Bar Chart</a>
-                            <a class="dropdown-item" href="">Heatmap and Cluster Map</a>
+                            <a class="dropdown-item" href="scoresLeaflet.html">Heatmap and Cluster Map</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data and Methodology</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
         <div class="container">
