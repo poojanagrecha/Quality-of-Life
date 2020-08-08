@@ -9,7 +9,7 @@ var data = [{
     mode: "gauge+number+delta",
     value: 6.05,
     title: { text: "Seattle Overall Score", font: { size: 24 } },
-    delta: { reference: 5.9, increasing: { color: "darkblue" } },
+    delta: { reference: 5.9, increasing: { color: "red" } },
     gauge: {
         axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
         bar: { color: "indigo" },
@@ -45,7 +45,7 @@ var data = [{
     mode: "gauge+number+delta",
     value: 5.77,
     title: { text: "Dallas Overall Score", font: { size: 24 } },
-    delta: { reference: 5.9, increasing: { color: "yellow" } },
+    delta: { reference: 5.9, increasing: { color: "red" } },
     gauge: {
         axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
         bar: { color: "indigo" },
@@ -440,7 +440,7 @@ var data = [{
     mode: "gauge+number+delta",
     value: 5.8,
     title: { text: "Kansas City Overall Score", font: { size: 24 } },
-    delta: { reference: 5.2, increasing: { color: "red" } },
+    delta: { reference: 5.9, increasing: { color: "red" } },
     gauge: {
         axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
         bar: { color: "indigo" },
