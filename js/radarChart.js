@@ -11,7 +11,7 @@ function buildHeader(activeIndicator, score) {
   $("#description-text").empty();
   $("#description-text").append(
     `<h1><b>${activeIndicator}</b></h1>
-    <h6>This is a visual representation of ${activeIndicator} scores, the city average score is ${score}/10</h6>`
+    <h6>This is a visual representation of ${activeIndicator} scores, the city's average score is ${score}/10</h6>`
   );
 }
 var margin = { top: 100, right: 100, bottom: 100, left: 100 },
@@ -410,7 +410,6 @@ var csvData;
 d3.csv("../data/Allinclusive.csv")
   .then(function (scoreData) {
     csvData = scoreData;
-
     // scoreData.forEach(function (d) {
     //   d.Cost_of_Living = +d.Cost_of_Living;
     //   d.Economy = +d.Economy;
@@ -430,7 +429,11 @@ d3.csv("../data/Allinclusive.csv")
 
     var graphScoreData = scoreData.map((dataItem) => {
       return [
-        { axis: "Cost of Living", value: +dataItem.Cost_of_Living },
+        {
+          axis: "Cost of Living",
+          value: +dataItem.Cost_of_Living,
+          name: dataItem.City,
+        },
         { axis: "Education", value: +dataItem.Education },
         {
           axis: "Environmental Quality",
@@ -450,6 +453,25 @@ d3.csv("../data/Allinclusive.csv")
       ];
     });
 
+    const sortedAverages = graphScoreData
+      .map((cityData) => {
+        return {
+          name: cityData[0].name,
+          averageScore:
+            cityData.reduce((acc, item) => (acc += item.value), 0) /
+            cityData.length,
+          ...cityData,
+        };
+      })
+      .sort((a, b) => b.averageScore - a.averageScore)
+      .slice(0, 20)
+      .map((cityData) => {
+        return {
+          name: cityData.name,
+          value: cityData.averageScore,
+        };
+      });
+    console.log(sortedAverages);
     //   ////////////////////////////////////////////////////////////
     //   ////////////////// Draw the Chart //////////////////////////
     //   ////////////////////////////////////////////////////////////
@@ -484,10 +506,25 @@ d3.csv("../data/Allinclusive.csv")
     //Call function to draw the Radar chart
     RadarChart(".radarChart", [graphScoreData[0]], radarChartOptions);
     loadMetaData(scoreData[0].City);
+    buildHeader(scoreData[0].City);
   })
   .catch(function (error) {
     console.log(error);
   });
+
+function sortAverageCityData() {
+  const sortedAverages = csvData
+    .map((cityData) => {
+      return {
+        averageScore:
+          cityData.reduce((acc, item) => (acc += item.value), 0) /
+          cityData.length,
+        ...cityData,
+      };
+    })
+    .sort((a, b) => a.averageScore - b.averageScore);
+  console.log(sortedAverages);
+}
 
 function renderCitiesData(city) {
   let filteredCitiesData = csvData.find((row) => {
@@ -554,6 +591,7 @@ function renderCitiesData(city) {
       return c[x % m];
     },
   };
+  // console.log(filteredCitiesData);
   RadarChart(".radarChart", [graphfilteredCitiesData], radarChartOptions);
   buildHeader(filteredCitiesData.City, avgScore);
 }
