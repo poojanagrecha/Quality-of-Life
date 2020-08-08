@@ -45,7 +45,7 @@ function buildCircleBarplot1(activeIndicator) {
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 100) + ")"); // Add 100 on Y translation, cause upper bars are longer
-    d3.csv("../data/Allinclusive.csv").then(function(data) {
+    d3.csv("data/Allinclusive.csv").then(function(data) {
 
         // console.log(data);
 
@@ -132,8 +132,8 @@ function buildCircleBarplot1(activeIndicator) {
 
         circleBars.on('mouseover', function(data) {
                 toolTip.show(data, this);
-                toolTip.style("top", (height / 1.16) + "px")
-                    .style("left", (width - (width / 1.7)) + "px")
+                toolTip.style("top", (height + (height / 5)) + "px")
+                    .style("left", (width - (width / 1.8)) + "px")
                 d3.select(this)
                     .transition()
                     .duration(1000)
