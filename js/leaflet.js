@@ -84,7 +84,8 @@ function createMap(dropFilter) {
 
         var myMap = L.map("mapid", {
             center: [39.833333, -98.583333],
-            zoom: 4.7,
+            zoom: 4,
+            worldCopyJump: true,
             layers: [darkmap, circleLayer]
         });
 
