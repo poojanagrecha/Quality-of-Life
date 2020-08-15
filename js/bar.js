@@ -132,7 +132,7 @@ function buildCircleBarplot1(activeIndicator) {
 
         circleBars.on('mouseover', function(data) {
                 toolTip.show(data, this);
-                toolTip.style("top", (height + (height / 5)) + "px")
+                toolTip.style("top", (height + innerRadius - innerRadius / 5) + "px")
                     .style("left", (width - (width / 1.8)) + "px")
                 d3.select(this)
                     .transition()
