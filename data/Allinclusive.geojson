@@ -3920,12 +3920,12 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -115.4765659,32.6563349 ]
+       "coordinates":  [ -2.990664,53.409470 ]
     },
     "properties": {
     "City":"Liverpool",
     "City_Summary":"Liverpool, United Kingdom, is among the leading cities with a speedy internet access. According to Teleport's city rankings, this is a good place to live with high ratings in housing, travel connectivity and business freedom. ",
-    "Address":"Boulevard Adolfo López Mateos 202, José María Ramírez, 21010 Mexicali, B.C., Mexico",
+    "Address":"Liverpool, UK",
     "Housing":7.485,
     "Cost_of_Living":6.02,
     "Startups":3.5589999999999993,
@@ -5515,7 +5515,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -70.2568189,43.6590993 ]
+       "coordinates":  [ -70.255640,43.655624 ]
     },
     "properties": {
     "City":"Portland, ME",

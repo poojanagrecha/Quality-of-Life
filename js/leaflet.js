@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 function createMap(dropFilter) {
     $('#mapParent').empty();
-    $('#mapParent').append('<div style="height:827px" id="mapid"></div>');
+    $('#mapParent').append('<div style="height:760px" id="mapid"></div>');
 
     var streetSatmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
         attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -49,8 +49,9 @@ function createMap(dropFilter) {
         city.forEach(function(place) {
 
             if ((place.geometry.coordinates[1]) && (place.geometry.coordinates[0])) {
-
-                let popUp = L.marker([+place.geometry.coordinates[1], +place.geometry.coordinates[0]]).bindPopup("<h3>" + place.properties.Address + "</h3><hr><h5>" + dropFilter.split('_').join(' ') + " Score: " + Math.round(place.properties[dropFilter], 2) + "</h5>");
+                let scoreRound = Math.round(place.properties[dropFilter], 2)
+                let popUp = L.marker([+place.geometry.coordinates[1], +place.geometry.coordinates[0]]).bindPopup("<h3>" + place.properties.Address + "</h3><hr><h5>" + dropFilter.split('_').join(' ') +
+                    " Score: " + scoreRound + "</h5><hr>" + place.properties.City_Summary);
                 markers.addLayer(popUp);
 
                 let circle = L.circle([+place.geometry.coordinates[1], +place.geometry.coordinates[0]], {
@@ -59,9 +60,10 @@ function createMap(dropFilter) {
                     fillOpacity: .9,
                     color: 'grey',
                     weight: .5
-                }).bindPopup("<h3>" + place.properties.Address + "</h3><hr><h5>" + dropFilter.split('_').join(' ') + " Score: " + Math.round(place.properties[dropFilter], 2) + "</h5>");
+                }).bindPopup("<h3>" + place.properties.Address + "</h3><hr><h5>" + dropFilter.split('_').join(' ') + " Score: " + scoreRound + "</h5><hr>" + place.properties.City_Summary);
 
                 circles.push(circle);
+
 
             }
 
@@ -90,16 +92,16 @@ function createMap(dropFilter) {
         });
 
         var legend = L.control({ position: 'bottomright' });
+
         legend.onAdd = function(myMap) {
 
-            var div = L.DomUtil.create('div', 'legend'),
-                scores = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            var div = L.DomUtil.create('div', 'legend');
+            var scores = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+            var labels = ["9+", "8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1"];
 
-            div.innerHTML += "<h4>Scores</h4>"
+            div.innerHTML += "<div><h4>Scores</h4></div>";
             for (var i = 0; i < scores.length; i++) {
-                div.innerHTML +=
-                    '<i style="background:' + circleColor(scores[i] + 1) + '"></i> ' +
-                    scores[i] + (scores[i + 1] ? '&ndash;' + scores[i + 1] + '<br>' : '+');
+                div.innerHTML += '<i style="background:' + circleColor(scores[i]) + '">&nbsp;&nbsp;</i>&nbsp;&nbsp;' + labels[i] + '<br />';
             }
             return div;
 
@@ -109,9 +111,8 @@ function createMap(dropFilter) {
         function markerSize(dot) {
             return dot * 10000;
         };
+
         legend.addTo(myMap);
-
-
 
         // Create a layer control
         // Pass in our baseMaps and overlayMaps
@@ -123,6 +124,7 @@ function createMap(dropFilter) {
 };
 
 function circleColor(x) {
+
     var colorFill = ['#ff0066', '#e60f75', '#bf268c', '#993da3', '#804cb2', '#665cc2', '#4073d9', '#1a8af0', '#0099ff', '#00CCFF'];
     if (x > 9) {
         return colorFill[9];
