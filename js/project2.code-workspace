@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../Visualizing-Data-with-Leaflet"
+	},
+	{
+		"path": "../../Web-Design-Challenge"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "project2-group1"
+  }
+}
