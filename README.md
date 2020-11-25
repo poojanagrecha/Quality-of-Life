@@ -1,4 +1,7 @@
 # Quality of Life Analysis
+![header](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/Quality%20of%20Life.png)
+
+<b> Deployed Link:</b> https://storage.googleapis.com/project2group1/project2-group1/index.html
 
 ## Purpose
 
@@ -20,4 +23,25 @@ In order to build our visualizations, we used various javascript libraries - Jqu
 Plotly. We built four types of charts - a set of gauge charts made using Plotly, a radar chart made
 using D3, a circular bar plot made using D3, and a cluster map made using Leaflet. The charts were
 separated into two categories: charts by indicator and charts by city
+
+![gaugechart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/gauge%20chart.png)
+
+![circlechart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/circle%20chart.png)
+
+![radarchart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/radar%20chart.png)
+
+![leafletmap](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/leaflet%20map.png)
+
+## Data Takeaways
+- Three highest scoring cities were Singapor, Munich, and Toronto
+- US performed best in economic growth, startups, and education
+- Cities in developing countries scored well in cost of living and housing
+- Cities with high education scores have high scores in business free dome
+- Eudcation, environmental quality and economy affect the housing and cost of living score and vice versa
+- Cities with geographical feautrues such as mountains and beaches tend to score higher in outdoors as expected
+- Major metropolitan cities scored high in Leisure and Culture
+
+
+
+
 
