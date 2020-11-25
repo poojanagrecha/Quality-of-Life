@@ -26,11 +26,19 @@ separated into two categories: charts by indicator and charts by city
 
 ![gaugechart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/gauge%20chart.png)
 
+- Gauge chart of overall city score created using Plotly.
+
 ![circlechart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/circle%20chart.png)
+
+- Circular bar graph of score based on feature created using D3.js 
 
 ![radarchart](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/radar%20chart.png)
 
+- Radar chart showing all scores of selected city created using D3.js
+
 ![leafletmap](https://github.com/poojanagrecha/Quality-of-Life/blob/master/Images/leaflet%20map.png)
+
+- Map which can be filtered through feature created using Leaflet 
 
 ## Data Takeaways
 - Three highest scoring cities were Singapor, Munich, and Toronto
