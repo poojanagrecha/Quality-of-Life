@@ -407,7 +407,7 @@ function RadarChart(id, data, options) {
   }
 }
 var csvData;
-d3.csv("data/Allinclusive.csv")
+d3.csv("/data/Allinclusive.csv")
   .then(function (scoreData) {
     csvData = scoreData;
     // scoreData.forEach(function (d) {
@@ -599,7 +599,7 @@ function renderCitiesData(city) {
 function getData() {
   var selector = d3.select("#selDataset");
 
-  d3.csv("data/Allinclusive.csv").then(function (data) {
+  d3.csv("/data/Allinclusive.csv").then(function (data) {
     data.forEach(function (sample) {
       var cityName = sample.City;
       selector.append("option").text(cityName).property("value", cityName);
@@ -610,7 +610,7 @@ function getData() {
 getData();
 
 function loadMetaData(sample) {
-  d3.csv("data/Allinclusive.csv").then((data) => {
+  d3.csv("/data/Allinclusive.csv").then((data) => {
     var result = data.find((row) => row.City === sample);
 
     var PANEL = d3.select(".card-body");
